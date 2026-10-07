@@ -24,3 +24,4 @@ Replace `HelloWorld` with the class name of the exercise you want to run.
 | [DisplayTwoNumbers.java](01-basic-input-output/DisplayTwoNumbers.java) | Input and display two numbers | `12.5 -3` |
 | [SimpleCalculator.java](01-basic-input-output/SimpleCalculator.java) | Calculate with +, -, *, /, and % | `8 + 2` |
 | [SwapNumbers.java](01-basic-input-output/SwapNumbers.java) | Swap two numbers using a temporary variable | `2.5 -3.5` |
+| [TemperatureConverter.java](01-basic-input-output/TemperatureConverter.java) | Convert Celsius and Fahrenheit in both directions | `C 0` |
