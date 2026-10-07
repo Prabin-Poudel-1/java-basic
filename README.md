@@ -20,3 +20,4 @@ Replace `HelloWorld` with the class name of the exercise you want to run.
 | Program | Practice | Sample input |
 | --- | --- | --- |
 | [HelloWorld.java](01-basic-input-output/HelloWorld.java) | Print Hello World | `No input` |
+| [PersonalDetails.java](01-basic-input-output/PersonalDetails.java) | Read name, age, and address | `Prabin Poudel / 20 / Kathmandu Nepal` |
