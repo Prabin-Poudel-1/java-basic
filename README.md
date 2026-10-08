@@ -50,3 +50,26 @@ Result (after the prompt):
 Area: 15.00
 Perimeter: 16.00
 ```
+
+### Circle area and circumference
+
+[CircleCalculator.java](02-basic-mathematical-programs/CircleCalculator.java) accepts non-negative radius, including zero, and prints results to two decimal places.
+
+```sh
+mkdir -p build
+javac -d build 02-basic-mathematical-programs/CircleCalculator.java
+java -cp build CircleCalculator
+```
+
+Sample input:
+
+```text
+5
+```
+
+Result (after the prompt):
+
+```text
+Area: 78.54
+Circumference: 31.42
+```
