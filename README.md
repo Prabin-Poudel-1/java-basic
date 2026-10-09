@@ -96,3 +96,26 @@ Result (after the prompt):
 Simple interest: 100.00
 Total amount: 1100.00
 ```
+
+### Compound interest
+
+[CompoundInterest.java](02-basic-mathematical-programs/CompoundInterest.java) Reads principal, annual percentage rate, and time in years. Uses annual compounding: amount = principal × (1 + rate / 100)^years; interest = amount − principal. Fractional years use the same power formula. Inputs must be finite and non-negative; results use two decimal places.
+
+```sh
+mkdir -p build
+javac -d build 02-basic-mathematical-programs/CompoundInterest.java
+java -cp build CompoundInterest
+```
+
+Sample input:
+
+```text
+1000 5 2
+```
+
+Result (after the prompt):
+
+```text
+Compound interest: 102.50
+Total amount: 1102.50
+```
