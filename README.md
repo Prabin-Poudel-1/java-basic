@@ -119,3 +119,27 @@ Result (after the prompt):
 Compound interest: 102.50
 Total amount: 1102.50
 ```
+
+### Seconds to hours, minutes, and seconds
+
+[SecondsConverter.java](02-basic-mathematical-programs/SecondsConverter.java) Reads one non-negative whole number on a line (up to 9223372036854775807). Uses division and remainder to split it into total hours, remaining minutes, and remaining seconds. Hours may exceed 23; minutes and seconds stay between 0 and 59.
+
+```sh
+mkdir -p build
+javac -d build 02-basic-mathematical-programs/SecondsConverter.java
+java -cp build SecondsConverter
+```
+
+Sample input:
+
+```text
+3661
+```
+
+Result (after the prompt):
+
+```text
+Hours: 1
+Minutes: 1
+Seconds: 1
+```
