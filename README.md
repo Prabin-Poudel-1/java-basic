@@ -143,3 +143,26 @@ Hours: 1
 Minutes: 1
 Seconds: 1
 ```
+
+### Average of numbers
+
+[AverageOfNumbers.java](02-basic-mathematical-programs/AverageOfNumbers.java) reads a positive whole-number count on its own line, then that many finite numbers separated by whitespace. Negative values and decimals are allowed. It computes sum / count and displays the average to two decimal places. An overflowing running sum is reported instead of printing an invalid result.
+
+```sh
+mkdir -p build
+javac -d build 02-basic-mathematical-programs/AverageOfNumbers.java
+java -cp build AverageOfNumbers
+```
+
+Sample input:
+
+```text
+3
+10 20 30
+```
+
+Result (after the prompts):
+
+```text
+Average: 20.00
+```
