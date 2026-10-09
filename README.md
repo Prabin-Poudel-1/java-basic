@@ -73,3 +73,26 @@ Result (after the prompt):
 Area: 78.54
 Circumference: 31.42
 ```
+
+### Simple interest
+
+[SimpleInterest.java](02-basic-mathematical-programs/SimpleInterest.java) reads principal, annual percentage rate, and time in years (fractional years are allowed). Inputs must be finite and non-negative. Simple interest = principal × rate × years / 100; total amount = principal + interest. Results use two decimal places.
+
+```sh
+mkdir -p build
+javac -d build 02-basic-mathematical-programs/SimpleInterest.java
+java -cp build SimpleInterest
+```
+
+Sample input:
+
+```text
+1000 5 2
+```
+
+Result (after the prompt):
+
+```text
+Simple interest: 100.00
+Total amount: 1100.00
+```
