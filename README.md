@@ -191,3 +191,27 @@ Result (after the prompt):
 Percentage: 85.00%
 Grade: B
 ```
+
+## Decision-making
+
+### Positive, negative, or zero
+
+[NumberSign.java](03-decision-making/NumberSign.java) reads one finite floating-point number and uses `if/else` to classify it. Integers, decimals, and scientific notation are accepted. Both positive and negative zero are classified as zero. Values are interpreted using double-precision floating point.
+
+```sh
+mkdir -p build
+javac -d build 03-decision-making/NumberSign.java
+java -cp build NumberSign
+```
+
+Sample input:
+
+```text
+-12.5
+```
+
+Result (after the prompt):
+
+```text
+Negative
+```
