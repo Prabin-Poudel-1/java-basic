@@ -215,3 +215,25 @@ Result (after the prompt):
 ```text
 Negative
 ```
+
+### Even or odd
+
+[EvenOddChecker.java](03-decision-making/EvenOddChecker.java) reads one signed integer on a line and checks its remainder when divided by two. Zero and negative even numbers are even. Accepted range: −9223372036854775808 to 9223372036854775807. Decimals, extra tokens, and out-of-range inputs are rejected.
+
+```sh
+mkdir -p build
+javac -d build 03-decision-making/EvenOddChecker.java
+java -cp build EvenOddChecker
+```
+
+Sample input:
+
+```text
+-7
+```
+
+Result (after the prompt):
+
+```text
+Odd
+```
