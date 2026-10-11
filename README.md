@@ -237,3 +237,21 @@ Result (after the prompt):
 ```text
 Odd
 ```
+
+### Largest of two numbers
+
+[LargestOfTwo.java](03-decision-making/LargestOfTwo.java) reads two finite numbers and uses `if/else` to print the larger value. If they compare equal, it reports that both are equal. Integers, decimals, and scientific notation are accepted and interpreted using double-precision floating point; positive and negative zero compare equal.
+
+```sh
+mkdir -p build
+javac -d build 03-decision-making/LargestOfTwo.java
+java -cp build LargestOfTwo
+```
+
+Sample input:
+
+```text
+10 20
+```
+
+Result (after the prompt): `Largest: 20` (Java displays `20.0`).
