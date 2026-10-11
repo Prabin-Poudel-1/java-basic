@@ -255,3 +255,21 @@ Sample input:
 ```
 
 Result (after the prompt): `Largest: 20` (Java displays `20.0`).
+
+### Largest of three numbers
+
+[LargestOfThree.java](03-decision-making/LargestOfThree.java) reads three finite numbers and uses `if/else` comparisons to print the largest value. Tied maximum values are handled with `>=`. Integers, decimals, and scientific notation are accepted and interpreted using double-precision floating point; positive and negative zero compare equal.
+
+```sh
+mkdir -p build
+javac -d build 03-decision-making/LargestOfThree.java
+java -cp build LargestOfThree
+```
+
+Sample input:
+
+```text
+10 20 15
+```
+
+Result (after the prompt): `Largest: 20` (Java displays `20.0`).
