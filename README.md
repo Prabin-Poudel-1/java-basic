@@ -295,3 +295,25 @@ Result (after the prompt):
 ```text
 Leap year
 ```
+
+### Voting eligibility (age-only practice)
+
+[VotingEligibility.java](03-decision-making/VotingEligibility.java) reads one non-negative age in whole years and uses `if/else` with an example threshold of 18. This exercise checks only age, not citizenship, registration, or other voting requirements. The threshold is an exercise assumption rather than a complete eligibility determination. Accepted input range: 0 to 9223372036854775807; decimals and extra tokens are rejected.
+
+```sh
+mkdir -p build
+javac -d build 03-decision-making/VotingEligibility.java
+java -cp build VotingEligibility
+```
+
+Sample input:
+
+```text
+18
+```
+
+Result (after the prompt):
+
+```text
+Eligible by age.
+```
