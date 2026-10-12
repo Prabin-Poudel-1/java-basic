@@ -317,3 +317,25 @@ Result (after the prompt):
 ```text
 Eligible by age.
 ```
+
+### Grade calculation
+
+[GradeCalculator.java](03-decision-making/GradeCalculator.java) reads one score out of 100, rather than calculating a percentage from marks. Uses the same example practice scale as PercentageAndGrade: A >= 90, B >= 80, C >= 70, D >= 60, E >= 50, otherwise F. The finite score must be in [0, 100]. Fractional scores use their unrounded value for comparison. This is an exercise scale, not an institutional grading policy.
+
+```sh
+mkdir -p build
+javac -d build 03-decision-making/GradeCalculator.java
+java -cp build GradeCalculator
+```
+
+Sample input:
+
+```text
+85
+```
+
+Result (after the prompt):
+
+```text
+Grade: B
+```
