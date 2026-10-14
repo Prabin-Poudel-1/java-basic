@@ -428,3 +428,25 @@ Result (after the prompt):
 ```text
 Wednesday
 ```
+
+### Month number to month name
+
+[MonthName.java](04-switch-programs/MonthName.java) reads one whole-number month and uses a switch to select its English Gregorian month name: 1 January through 12 December. Values outside 1-12, malformed input, decimals, and extra tokens are rejected.
+
+```sh
+mkdir -p build
+javac -d build 04-switch-programs/MonthName.java
+java -cp build MonthName
+```
+
+Sample input:
+
+```text
+10
+```
+
+Result (after the prompt):
+
+```text
+October
+```
