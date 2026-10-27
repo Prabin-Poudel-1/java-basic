@@ -522,3 +522,15 @@ java -cp build PrintOddNumbers
 ```
 
 Sample input: `No input`
+
+### Sum from 1 to n
+
+[SumOneToN.java](05-basic-loops/SumOneToN.java) Reads a whole number n from 0 through 4294967295 and calculates n × (n + 1) ÷ 2. It divides an even factor before multiplying, keeping the result within the signed 64-bit range. n = 0 gives a sum of zero.
+
+```sh
+mkdir -p build
+javac -d build 05-basic-loops/SumOneToN.java
+java -cp build SumOneToN
+```
+
+Sample input: `10`
