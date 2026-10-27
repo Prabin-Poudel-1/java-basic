@@ -472,3 +472,4 @@ Sample input (deposit 250, withdraw 100, then exit):
 ```
 
 Output includes `Balance: 1250`, `Balance: 1150`, and `Goodbye.` along with the menus and prompts.
+\n### Shape area calculator\n\n[ShapeAreaCalculator.java](04-switch-programs/ShapeAreaCalculator.java) Offers rectangle (length × width), circle (π × radius²), and triangle (base × height ÷ 2). Select a shape, then enter its dimensions on separate lines. Dimensions must be finite and non-negative. Results are shown to two decimal places.\n\n```sh\nmkdir -p build\njavac -d build 04-switch-programs/ShapeAreaCalculator.java\njava -cp build ShapeAreaCalculator\n```\n\nSample input: `2\n5\n`\n
