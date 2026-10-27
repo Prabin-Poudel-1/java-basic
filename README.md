@@ -534,3 +534,15 @@ java -cp build SumOneToN
 ```
 
 Sample input: `10`
+
+### Multiplication table
+
+[MultiplicationTable.java](05-basic-loops/MultiplicationTable.java) Reads a signed integer and prints its first ten multiples. The input is limited to ±922337203685477580 so every product fits in a signed 64-bit integer. Negative numbers and zero are supported.
+
+```sh
+mkdir -p build
+javac -d build 05-basic-loops/MultiplicationTable.java
+java -cp build MultiplicationTable
+```
+
+Sample input: `7`
