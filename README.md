@@ -472,4 +472,53 @@ Sample input (deposit 250, withdraw 100, then exit):
 ```
 
 Output includes `Balance: 1250`, `Balance: 1150`, and `Goodbye.` along with the menus and prompts.
-\n### Shape area calculator\n\n[ShapeAreaCalculator.java](04-switch-programs/ShapeAreaCalculator.java) Offers rectangle (length × width), circle (π × radius²), and triangle (base × height ÷ 2). Select a shape, then enter its dimensions on separate lines. Dimensions must be finite and non-negative. Results are shown to two decimal places.\n\n```sh\nmkdir -p build\njavac -d build 04-switch-programs/ShapeAreaCalculator.java\njava -cp build ShapeAreaCalculator\n```\n\nSample input: `2\n5\n`\n\n### Print numbers 1 to 100\n\n[PrintOneToHundred.java](05-basic-loops/PrintOneToHundred.java) Uses a for loop to print every integer from 1 through 100, one per line. No input is required.\n\n```sh\nmkdir -p build\njavac -d build 05-basic-loops/PrintOneToHundred.java\njava -cp build PrintOneToHundred\n```\n\nSample input: `No input`\n\n### Print even numbers from 1 to 100\n\n[PrintEvenNumbers.java](05-basic-loops/PrintEvenNumbers.java) Uses a for loop that advances by two to print the even integers from 2 through 100, one per line. No input is required.\n\n```sh\nmkdir -p build\njavac -d build 05-basic-loops/PrintEvenNumbers.java\njava -cp build PrintEvenNumbers\n```\n\nSample input: `No input`\n
+
+### Shape area calculator
+
+[ShapeAreaCalculator.java](04-switch-programs/ShapeAreaCalculator.java) Offers rectangle (length × width), circle (π × radius²), and triangle (base × height ÷ 2). Select a shape, then enter its dimensions on separate lines. Dimensions must be finite and non-negative. Results are shown to two decimal places.
+
+```sh
+mkdir -p build
+javac -d build 04-switch-programs/ShapeAreaCalculator.java
+java -cp build ShapeAreaCalculator
+```
+
+Sample input: `2
+5
+`
+
+### Print numbers 1 to 100
+
+[PrintOneToHundred.java](05-basic-loops/PrintOneToHundred.java) Uses a for loop to print every integer from 1 through 100, one per line. No input is required.
+
+```sh
+mkdir -p build
+javac -d build 05-basic-loops/PrintOneToHundred.java
+java -cp build PrintOneToHundred
+```
+
+Sample input: `No input`
+
+### Print even numbers from 1 to 100
+
+[PrintEvenNumbers.java](05-basic-loops/PrintEvenNumbers.java) Uses a for loop that advances by two to print the even integers from 2 through 100, one per line. No input is required.
+
+```sh
+mkdir -p build
+javac -d build 05-basic-loops/PrintEvenNumbers.java
+java -cp build PrintEvenNumbers
+```
+
+Sample input: `No input`
+
+### Print odd numbers from 1 to 100
+
+[PrintOddNumbers.java](05-basic-loops/PrintOddNumbers.java) Uses a for loop that advances by two to print odd integers from 1 through 99, one per line. No input is required.
+
+```sh
+mkdir -p build
+javac -d build 05-basic-loops/PrintOddNumbers.java
+java -cp build PrintOddNumbers
+```
+
+Sample input: `No input`
