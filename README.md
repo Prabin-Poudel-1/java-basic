@@ -570,3 +570,15 @@ java -cp build CountDigits
 ```
 
 Sample input: `-12345`
+
+### Reverse a number
+
+[ReverseNumber.java](06-number-based/ReverseNumber.java) Reads a signed 64-bit integer and reverses its decimal digits with a loop. Leading zeroes in the reversed result disappear; a minus sign stays at the front. If the reversed value cannot fit in a signed 64-bit integer, the program reports it.
+
+```sh
+mkdir -p build
+javac -d build 06-number-based/ReverseNumber.java
+java -cp build ReverseNumber
+```
+
+Sample input: `-120`
