@@ -594,3 +594,15 @@ java -cp build PalindromeNumber
 ```
 
 Sample input: `12321`
+
+### Armstrong number
+
+[ArmstrongNumber.java](06-number-based/ArmstrongNumber.java) For a non-negative signed 64-bit integer, counts its decimal digits and checks whether the sum of each digit raised to that count equals the original number. For example, 153 = 1³ + 5³ + 3³. Negative numbers are rejected; zero is an Armstrong number.
+
+```sh
+mkdir -p build
+javac -d build 06-number-based/ArmstrongNumber.java
+java -cp build ArmstrongNumber
+```
+
+Sample input: `153`
