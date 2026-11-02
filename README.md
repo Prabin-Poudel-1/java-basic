@@ -582,3 +582,15 @@ java -cp build ReverseNumber
 ```
 
 Sample input: `-120`
+
+### Palindrome number
+
+[PalindromeNumber.java](06-number-based/PalindromeNumber.java) Checks whether a non-negative signed 64-bit integer reads the same forward and backward. Uses a half-reversal loop to avoid overflowing while reversing large values. Negative numbers are not considered palindromes; zero is a palindrome.
+
+```sh
+mkdir -p build
+javac -d build 06-number-based/PalindromeNumber.java
+java -cp build PalindromeNumber
+```
+
+Sample input: `12321`
