@@ -558,3 +558,15 @@ java -cp build PowerCalculator
 ```
 
 Sample input: `2 10`
+
+### Count digits in a number
+
+[CountDigits.java](05-basic-loops/CountDigits.java) Reads one signed 64-bit integer and counts its base-10 digits with a do/while loop. The minus sign is not counted; zero has one digit. Decimals, extra values, and integers outside the signed 64-bit range are rejected.
+
+```sh
+mkdir -p build
+javac -d build 05-basic-loops/CountDigits.java
+java -cp build CountDigits
+```
+
+Sample input: `-12345`
