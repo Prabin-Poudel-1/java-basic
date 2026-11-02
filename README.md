@@ -546,3 +546,15 @@ java -cp build MultiplicationTable
 ```
 
 Sample input: `7`
+
+### Power of a number
+
+[PowerCalculator.java](05-basic-loops/PowerCalculator.java) Reads a finite floating-point base and an integer exponent from -1024 through 1024. A loop multiplies the base by itself; negative exponents return the reciprocal. The result is printed with up to 10 significant digits. Zero with a negative exponent, non-finite inputs, and overflow are reported.
+
+```sh
+mkdir -p build
+javac -d build 05-basic-loops/PowerCalculator.java
+java -cp build PowerCalculator
+```
+
+Sample input: `2 10`
