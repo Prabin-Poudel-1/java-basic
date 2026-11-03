@@ -606,3 +606,15 @@ java -cp build ArmstrongNumber
 ```
 
 Sample input: `153`
+
+### Prime number
+
+[PrimeNumber.java](06-number-based/PrimeNumber.java) reads one signed 32-bit whole number and checks whether it is prime by trying divisors up to its square root. Numbers below 2 are not prime. Decimals, extra tokens, and out-of-range values are rejected.
+
+```sh
+mkdir -p build
+javac -d build 06-number-based/PrimeNumber.java
+java -cp build PrimeNumber
+```
+
+Sample input: `29` (result: `Prime number`)
