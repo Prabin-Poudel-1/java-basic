@@ -618,3 +618,15 @@ java -cp build PrimeNumber
 ```
 
 Sample input: `29` (result: `Prime number`)
+
+### Prime numbers in a range
+
+[PrimeNumbersInRange.java](06-number-based/PrimeNumbersInRange.java) reads an inclusive start and end as signed 32-bit whole numbers, then prints every prime in that range. Ranges may include negative numbers; values below 2 are skipped. The start must not exceed the end, and extra or invalid input is rejected.
+
+```sh
+mkdir -p build
+javac -d build 06-number-based/PrimeNumbersInRange.java
+java -cp build PrimeNumbersInRange
+```
+
+Sample input: `10 30` (result: `11 13 17 19 23 29`)
