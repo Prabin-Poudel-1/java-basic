@@ -630,3 +630,15 @@ java -cp build PrimeNumbersInRange
 ```
 
 Sample input: `10 30` (result: `11 13 17 19 23 29`)
+
+### Fibonacci series
+
+[FibonacciSeries.java](06-number-based/FibonacciSeries.java) reads a term count from 0 to 93 and prints that many Fibonacci numbers starting with 0, 1. The 93-term limit keeps every printed value within a signed 64-bit integer. Zero terms prints `No terms`; invalid counts and extra input are rejected.
+
+```sh
+mkdir -p build
+javac -d build 06-number-based/FibonacciSeries.java
+java -cp build FibonacciSeries
+```
+
+Sample input: `10` (result: `0 1 1 2 3 5 8 13 21 34`)
