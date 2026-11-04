@@ -678,3 +678,39 @@ java -cp build SumOfDigits
 ```
 
 Sample input: `-12345` (result: `15`)
+
+### Product of digits
+
+[ProductOfDigits.java](06-number-based/ProductOfDigits.java) solves the product of digits exercise. It accepts whole-number input and reports invalid input clearly.
+
+```sh
+mkdir -p build
+javac -d build 06-number-based/ProductOfDigits.java
+java -cp build ProductOfDigits
+```
+
+Sample input: `1234`
+
+### GCD/HCF
+
+[GcdHcf.java](06-number-based/GcdHcf.java) solves the gcd/hcf exercise. It accepts whole-number input and reports invalid input clearly.
+
+```sh
+mkdir -p build
+javac -d build 06-number-based/GcdHcf.java
+java -cp build GcdHcf
+```
+
+Sample input: `48 18`
+
+### LCM
+
+[LcmCalculator.java](06-number-based/LcmCalculator.java) solves the lcm exercise. It accepts whole-number input and reports invalid input clearly.
+
+```sh
+mkdir -p build
+javac -d build 06-number-based/LcmCalculator.java
+java -cp build LcmCalculator
+```
+
+Sample input: `12 18`
