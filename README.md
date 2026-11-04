@@ -666,3 +666,15 @@ java -cp build StrongNumber
 ```
 
 Sample input: `145` (result: `Strong number`)
+
+### Sum of digits
+
+[SumOfDigits.java](06-number-based/SumOfDigits.java) adds the decimal digits of one signed 64-bit integer, ignoring its minus sign. Zero has a digit sum of zero. The calculation safely handles the minimum signed 64-bit value; invalid or extra input is rejected.
+
+```sh
+mkdir -p build
+javac -d build 06-number-based/SumOfDigits.java
+java -cp build SumOfDigits
+```
+
+Sample input: `-12345` (result: `15`)
