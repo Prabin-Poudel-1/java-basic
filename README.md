@@ -642,3 +642,15 @@ java -cp build FibonacciSeries
 ```
 
 Sample input: `10` (result: `0 1 1 2 3 5 8 13 21 34`)
+
+### Perfect number
+
+[PerfectNumber.java](06-number-based/PerfectNumber.java) checks a positive signed 32-bit integer by summing its positive proper divisors. For example, 6 is perfect because 1 + 2 + 3 = 6. Zero, negative values, and 1 are not perfect. Invalid or extra input is rejected.
+
+```sh
+mkdir -p build
+javac -d build 06-number-based/PerfectNumber.java
+java -cp build PerfectNumber
+```
+
+Sample input: `28` (result: `Perfect number`)
