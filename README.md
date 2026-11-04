@@ -654,3 +654,15 @@ java -cp build PerfectNumber
 ```
 
 Sample input: `28` (result: `Perfect number`)
+
+### Strong number
+
+[StrongNumber.java](06-number-based/StrongNumber.java) sums the factorials of the decimal digits of a non-negative signed 32-bit integer and compares the sum with the original value. Zero is a Strong number because 0! = 1? This exercise uses the standard digit-factorial definition, so zero is not Strong (0 != 1). Negative and invalid input is rejected.
+
+```sh
+mkdir -p build
+javac -d build 06-number-based/StrongNumber.java
+java -cp build StrongNumber
+```
+
+Sample input: `145` (result: `Strong number`)
