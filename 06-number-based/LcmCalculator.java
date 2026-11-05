@@ -1,0 +1,4 @@
+import java.util.Scanner;
+public class LcmCalculator {
+ public static void main(String[] args){Scanner in=new Scanner(System.in);System.out.print("Enter two non-negative whole numbers: ");if(!in.hasNextLong()){System.out.println("Please enter two non-negative signed 64-bit whole numbers.");return;}long a=in.nextLong();if(!in.hasNextLong()){System.out.println("Please enter two non-negative signed 64-bit whole numbers.");return;}long b=in.nextLong();if(in.hasNext()){System.out.println("Please enter only two whole numbers.");return;}if(a<0||b<0){System.out.println("Both numbers must be non-negative.");return;}long x=a,y=b;while(y!=0){long r=x%y;x=y;y=r;}if(a==0||b==0){System.out.println("LCM: 0");return;}if(a/x>Long.MAX_VALUE/b){System.out.println("LCM exceeds the signed 64-bit range.");return;}long lcm=(a/x)*b;System.out.println("LCM: "+lcm);}
+}
