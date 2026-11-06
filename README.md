@@ -724,3 +724,9 @@ Sample input: `12 18`
 ### Inverted triangle star pattern
 
 [InvertedTrianglePattern.java](07-pattern-programs/InvertedTrianglePattern.java) prints a shrinking inverted triangle for a size from 1 to 50. Compile with javac and run with java. Sample input: `3`.
+
+### Pyramid pattern
+
+[PyramidPattern.java](07-pattern-programs/PyramidPattern.java) prints a centered pyramid of stars. Input size is 1–50.
+
+Sample input: `3`
