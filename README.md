@@ -736,3 +736,9 @@ Sample input: `3`
 [NumberTriangle.java](07-pattern-programs/NumberTriangle.java) prints consecutive numbers in a growing triangle. Input size is 1–50.
 
 Sample input: `3`
+
+### Floyd's triangle
+
+[FloydTriangle.java](07-pattern-programs/FloydTriangle.java) prints consecutive numbers in Floyd triangle rows. Input size is 1–50.
+
+Sample input: `3`
