@@ -730,3 +730,9 @@ Sample input: `12 18`
 [PyramidPattern.java](07-pattern-programs/PyramidPattern.java) prints a centered pyramid of stars. Input size is 1–50.
 
 Sample input: `3`
+
+### Number triangle
+
+[NumberTriangle.java](07-pattern-programs/NumberTriangle.java) prints consecutive numbers in a growing triangle. Input size is 1–50.
+
+Sample input: `3`
