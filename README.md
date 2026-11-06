@@ -718,3 +718,6 @@ Sample input: `12 18`
 ### Square star pattern
 
 [SquareStarPattern.java](07-pattern-programs/SquareStarPattern.java) prints a square of stars for a size from 1 to 50. Compile with javac and run with java. Sample input: `3`.
+### Right triangle star pattern
+
+[RightTrianglePattern.java](07-pattern-programs/RightTrianglePattern.java) prints a growing right triangle for a size from 1 to 50. Compile with javac and run with java. Sample input: `3`.
