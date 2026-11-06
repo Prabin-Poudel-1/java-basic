@@ -721,3 +721,6 @@ Sample input: `12 18`
 ### Right triangle star pattern
 
 [RightTrianglePattern.java](07-pattern-programs/RightTrianglePattern.java) prints a growing right triangle for a size from 1 to 50. Compile with javac and run with java. Sample input: `3`.
+### Inverted triangle star pattern
+
+[InvertedTrianglePattern.java](07-pattern-programs/InvertedTrianglePattern.java) prints a shrinking inverted triangle for a size from 1 to 50. Compile with javac and run with java. Sample input: `3`.
