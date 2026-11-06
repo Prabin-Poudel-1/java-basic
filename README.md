@@ -714,3 +714,7 @@ java -cp build LcmCalculator
 ```
 
 Sample input: `12 18`
+
+### Square star pattern
+
+[SquareStarPattern.java](07-pattern-programs/SquareStarPattern.java) prints a square of stars for a size from 1 to 50. Compile with javac and run with java. Sample input: `3`.
