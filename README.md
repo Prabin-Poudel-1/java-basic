@@ -760,3 +760,9 @@ Sample input: `5`
 [AddTwoNumbersFunction.java](08-functions-methods/AddTwoNumbersFunction.java) adds two signed 32-bit integers in a reusable function.
 
 Sample input: `5`
+
+### maximum using function
+
+[MaximumUsingFunction.java](08-functions-methods/MaximumUsingFunction.java) finds the larger of two signed integers with a helper function.
+
+Sample input: `8 3`
