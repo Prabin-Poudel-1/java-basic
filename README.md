@@ -772,3 +772,9 @@ Sample input: `8 3`
 [PrimeCheckerFunction.java](08-functions-methods/PrimeCheckerFunction.java) checks primality using a reusable helper function.
 
 Sample input: `8 3`
+
+### factorial using function
+
+[FactorialUsingFunction.java](08-functions-methods/FactorialUsingFunction.java) calculates factorial for values from 0 through 20 with a helper function.
+
+Sample input: `8 3`
