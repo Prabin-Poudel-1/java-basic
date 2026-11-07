@@ -748,3 +748,9 @@ Sample input: `3`
 [PascalTriangle.java](07-pattern-programs/PascalTriangle.java) prints Pascal triangle rows for a size from 1 to 20.
 
 Sample input: `5`
+
+### Diamond star pattern
+
+[DiamondPattern.java](07-pattern-programs/DiamondPattern.java) prints a centered diamond for half-height from 1 to 25.
+
+Sample input: `5`
