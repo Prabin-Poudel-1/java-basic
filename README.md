@@ -766,3 +766,9 @@ Sample input: `5`
 [MaximumUsingFunction.java](08-functions-methods/MaximumUsingFunction.java) finds the larger of two signed integers with a helper function.
 
 Sample input: `8 3`
+
+### prime checker function
+
+[PrimeCheckerFunction.java](08-functions-methods/PrimeCheckerFunction.java) checks primality using a reusable helper function.
+
+Sample input: `8 3`
