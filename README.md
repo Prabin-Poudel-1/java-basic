@@ -742,3 +742,9 @@ Sample input: `3`
 [FloydTriangle.java](07-pattern-programs/FloydTriangle.java) prints consecutive numbers in Floyd triangle rows. Input size is 1–50.
 
 Sample input: `3`
+
+### Pascal triangle
+
+[PascalTriangle.java](07-pattern-programs/PascalTriangle.java) prints Pascal triangle rows for a size from 1 to 20.
+
+Sample input: `5`
