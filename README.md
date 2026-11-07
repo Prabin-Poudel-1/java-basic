@@ -754,3 +754,9 @@ Sample input: `5`
 [DiamondPattern.java](07-pattern-programs/DiamondPattern.java) prints a centered diamond for half-height from 1 to 25.
 
 Sample input: `5`
+
+### Add two numbers using a function
+
+[AddTwoNumbersFunction.java](08-functions-methods/AddTwoNumbersFunction.java) adds two signed 32-bit integers in a reusable function.
+
+Sample input: `5`
