@@ -844,3 +844,9 @@ Sample input: `3`
 [ArrayInputDisplay.java](09-one-dimensional-arrays/ArrayInputDisplay.java) reads up to 100 whole numbers and displays them in order.
 
 Sample input: `3`
+
+### sum of array elements
+
+[ArraySum.java](09-one-dimensional-arrays/ArraySum.java) reads up to 100 whole numbers and calculates their sum.
+
+Sample input: `3`
