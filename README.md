@@ -784,3 +784,9 @@ Sample input: `8 3`
 [FibonacciUsingFunction.java](08-functions-methods/FibonacciUsingFunction.java) prints a Fibonacci sequence using a function, with a term count from 0 to 93.
 
 Sample input: `8 2`
+
+### Function overloading
+
+[FunctionOverloading.java](08-functions-methods/FunctionOverloading.java) demonstrates overloaded addition for integer and decimal values.
+
+Sample input: `8 2`
