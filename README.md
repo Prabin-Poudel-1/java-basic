@@ -820,3 +820,9 @@ Sample input: `5`
 [RecursiveGcd.java](28-recursion-problems/RecursiveGcd.java) finds the GCD/HCF of two signed 32-bit numbers using Euclid’s recursive algorithm.
 
 Sample input: `48 18`
+
+### recursive reverse number
+
+[RecursiveReverseNumber.java](28-recursion-problems/RecursiveReverseNumber.java) reverses the digits of a signed 32-bit integer recursively.
+
+Sample input: `48 18`
