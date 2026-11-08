@@ -796,3 +796,9 @@ Sample input: `8 2`
 [PassArgumentsReturnValue.java](08-functions-methods/PassArgumentsReturnValue.java) computes rectangle area by passing dimensions to a function and returning its result.
 
 Sample input: `8 2`
+
+### recursive factorial
+
+[RecursiveFactorial.java](28-recursion-problems/RecursiveFactorial.java) calculates factorial recursively for values from 0 to 20.
+
+Sample input: `5`
