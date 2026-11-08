@@ -778,3 +778,9 @@ Sample input: `8 3`
 [FactorialUsingFunction.java](08-functions-methods/FactorialUsingFunction.java) calculates factorial for values from 0 through 20 with a helper function.
 
 Sample input: `8 3`
+
+### Fibonacci using function
+
+[FibonacciUsingFunction.java](08-functions-methods/FibonacciUsingFunction.java) prints a Fibonacci sequence using a function, with a term count from 0 to 93.
+
+Sample input: `8 2`
