@@ -808,3 +808,9 @@ Sample input: `5`
 [RecursiveFibonacci.java](28-recursion-problems/RecursiveFibonacci.java) prints Fibonacci terms with a memoized recursive function for up to 93 terms.
 
 Sample input: `5`
+
+### recursive sum of digits
+
+[RecursiveSum.java](28-recursion-problems/RecursiveSum.java) adds digits recursively and handles the signed 64-bit minimum.
+
+Sample input: `5`
