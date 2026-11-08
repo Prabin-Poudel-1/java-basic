@@ -814,3 +814,9 @@ Sample input: `5`
 [RecursiveSum.java](28-recursion-problems/RecursiveSum.java) adds digits recursively and handles the signed 64-bit minimum.
 
 Sample input: `5`
+
+### recursive GCD
+
+[RecursiveGcd.java](28-recursion-problems/RecursiveGcd.java) finds the GCD/HCF of two signed 32-bit numbers using Euclid’s recursive algorithm.
+
+Sample input: `48 18`
