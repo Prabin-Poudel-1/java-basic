@@ -790,3 +790,9 @@ Sample input: `8 2`
 [FunctionOverloading.java](08-functions-methods/FunctionOverloading.java) demonstrates overloaded addition for integer and decimal values.
 
 Sample input: `8 2`
+
+### Pass arguments and return values
+
+[PassArgumentsReturnValue.java](08-functions-methods/PassArgumentsReturnValue.java) computes rectangle area by passing dimensions to a function and returning its result.
+
+Sample input: `8 2`
