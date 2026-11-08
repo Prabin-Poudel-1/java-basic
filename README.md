@@ -802,3 +802,9 @@ Sample input: `8 2`
 [RecursiveFactorial.java](28-recursion-problems/RecursiveFactorial.java) calculates factorial recursively for values from 0 to 20.
 
 Sample input: `5`
+
+### recursive Fibonacci
+
+[RecursiveFibonacci.java](28-recursion-problems/RecursiveFibonacci.java) prints Fibonacci terms with a memoized recursive function for up to 93 terms.
+
+Sample input: `5`
