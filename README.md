@@ -832,3 +832,9 @@ Sample input: `48 18`
 [TowerOfHanoi.java](28-recursion-problems/TowerOfHanoi.java) prints the recursive moves for 1 to 10 disks and reports the move count.
 
 Sample input: `48 18`
+
+### recursive binary search
+
+[RecursiveBinarySearch.java](28-recursion-problems/RecursiveBinarySearch.java) searches a sorted array recursively and reports the matching index or not found.
+
+Sample input: `3`
