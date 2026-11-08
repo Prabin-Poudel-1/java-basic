@@ -826,3 +826,9 @@ Sample input: `48 18`
 [RecursiveReverseNumber.java](28-recursion-problems/RecursiveReverseNumber.java) reverses the digits of a signed 32-bit integer recursively.
 
 Sample input: `48 18`
+
+### Tower of Hanoi
+
+[TowerOfHanoi.java](28-recursion-problems/TowerOfHanoi.java) prints the recursive moves for 1 to 10 disks and reports the move count.
+
+Sample input: `48 18`
