@@ -868,3 +868,22 @@ Sample input: `3 2 4 6`
 [SecondLargestArray.java](09-one-dimensional-arrays/SecondLargestArray.java) finds the second distinct largest value, including for arrays with duplicate or negative values.
 
 Sample input: `3 2 4 6`
+
+### Reverse an array
+
+[ReverseArray.java](09-one-dimensional-arrays/ReverseArray.java) reads an array size from 1 to 100 followed by that many whole numbers, then prints the values in reverse order. A one-element array is supported.
+
+```sh
+mkdir -p build
+javac -d build 09-one-dimensional-arrays/ReverseArray.java
+java -cp build ReverseArray
+```
+
+Sample input:
+
+```text
+5
+1 2 3 4 5
+```
+
+Result (after the prompts): `Reversed array: 5 4 3 2 1`
