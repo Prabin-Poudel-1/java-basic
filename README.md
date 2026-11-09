@@ -926,3 +926,22 @@ Sample input:
 ```
 
 Result: `Found at index 1`
+
+### Copy an array
+
+[CopyArray.java](09-one-dimensional-arrays/CopyArray.java) reads 1 to 100 whole numbers, copies each value into a second array, and displays the copy in its original order.
+
+```sh
+mkdir -p build
+javac -d build 09-one-dimensional-arrays/CopyArray.java
+java -cp build CopyArray
+```
+
+Sample input:
+
+```text
+4
+7 -2 7 0
+```
+
+Result: `Copied array: 7 -2 7 0`
