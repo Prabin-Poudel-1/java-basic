@@ -906,3 +906,23 @@ Sample input:
 ```
 
 Result: `Even count: 3` and `Odd count: 3`
+
+### Search for an array element
+
+[SearchArrayElement.java](09-one-dimensional-arrays/SearchArrayElement.java) reads an array of 1 to 100 whole numbers and then a target value. It uses a linear search and reports the zero-based index of the first match, or `Not found`.
+
+```sh
+mkdir -p build
+javac -d build 09-one-dimensional-arrays/SearchArrayElement.java
+java -cp build SearchArrayElement
+```
+
+Sample input:
+
+```text
+6
+4 8 2 8 -1 0
+8
+```
+
+Result: `Found at index 1`
