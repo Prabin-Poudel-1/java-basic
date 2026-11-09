@@ -856,3 +856,9 @@ Sample input: `3`
 [ArrayAverage.java](09-one-dimensional-arrays/ArrayAverage.java) calculates the average of 1 to 100 signed whole numbers.
 
 Sample input: `3 2 4 6`
+
+### largest and smallest array elements
+
+[LargestSmallestArray.java](09-one-dimensional-arrays/LargestSmallestArray.java) finds the minimum and maximum values in the input array.
+
+Sample input: `3 2 4 6`
