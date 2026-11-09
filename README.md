@@ -966,3 +966,22 @@ Sample input:
 ```
 
 Result: `Merged array: 1 2 3 4 5`
+
+### Remove duplicate array elements
+
+[RemoveDuplicates.java](09-one-dimensional-arrays/RemoveDuplicates.java) reads 1 to 100 whole numbers and keeps the first occurrence of each value. It preserves the original order of the remaining elements.
+
+```sh
+mkdir -p build
+javac -d build 09-one-dimensional-arrays/RemoveDuplicates.java
+java -cp build RemoveDuplicates
+```
+
+Sample input:
+
+```text
+6
+4 2 4 3 2 3
+```
+
+Result: `Array without duplicates: 4 2 3`
