@@ -887,3 +887,22 @@ Sample input:
 ```
 
 Result (after the prompts): `Reversed array: 5 4 3 2 1`
+
+### Count even and odd array elements
+
+[CountEvenOddArray.java](09-one-dimensional-arrays/CountEvenOddArray.java) reads 1 to 100 whole numbers and counts how many are even or odd. Zero and negative numbers are handled using their remainder when divided by two.
+
+```sh
+mkdir -p build
+javac -d build 09-one-dimensional-arrays/CountEvenOddArray.java
+java -cp build CountEvenOddArray
+```
+
+Sample input:
+
+```text
+6
+0 1 2 3 -4 -5
+```
+
+Result: `Even count: 3` and `Odd count: 3`
