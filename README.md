@@ -945,3 +945,24 @@ Sample input:
 ```
 
 Result: `Copied array: 7 -2 7 0`
+
+### Merge two arrays
+
+[MergeArrays.java](09-one-dimensional-arrays/MergeArrays.java) reads two arrays, each with 1 to 100 whole numbers, and copies their values in order into one merged array.
+
+```sh
+mkdir -p build
+javac -d build 09-one-dimensional-arrays/MergeArrays.java
+java -cp build MergeArrays
+```
+
+Sample input:
+
+```text
+3
+1 2 3
+2
+4 5
+```
+
+Result: `Merged array: 1 2 3 4 5`
