@@ -850,3 +850,9 @@ Sample input: `3`
 [ArraySum.java](09-one-dimensional-arrays/ArraySum.java) reads up to 100 whole numbers and calculates their sum.
 
 Sample input: `3`
+
+### average of array
+
+[ArrayAverage.java](09-one-dimensional-arrays/ArrayAverage.java) calculates the average of 1 to 100 signed whole numbers.
+
+Sample input: `3 2 4 6`
