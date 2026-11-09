@@ -862,3 +862,9 @@ Sample input: `3 2 4 6`
 [LargestSmallestArray.java](09-one-dimensional-arrays/LargestSmallestArray.java) finds the minimum and maximum values in the input array.
 
 Sample input: `3 2 4 6`
+
+### second largest array element
+
+[SecondLargestArray.java](09-one-dimensional-arrays/SecondLargestArray.java) finds the second distinct largest value, including for arrays with duplicate or negative values.
+
+Sample input: `3 2 4 6`
