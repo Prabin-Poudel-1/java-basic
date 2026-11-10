@@ -985,3 +985,25 @@ Sample input:
 ```
 
 Result: `Array without duplicates: 4 2 3`
+
+## Searching algorithms
+
+### Binary search
+
+[BinarySearch.java](10-searching-algorithms/BinarySearch.java) searches a sorted ascending array of 1 to 100 whole numbers. It repeatedly checks the middle value, reducing the search range by half. The result uses a zero-based index.
+
+```sh
+mkdir -p build
+javac -d build 10-searching-algorithms/BinarySearch.java
+java -cp build BinarySearch
+```
+
+Sample input:
+
+```text
+6
+-5 -1 0 4 8 12
+8
+```
+
+Result: `Found at index 4`
