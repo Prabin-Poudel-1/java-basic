@@ -1085,3 +1085,22 @@ Sample input:
 ```
 
 Result: `Sorted array: -1 0 2 3 3 5`
+
+### Quick sort
+
+[QuickSort.java](11-sorting-algorithms/QuickSort.java) sorts 1 to 100 whole numbers in ascending order. It partitions values around a pivot, then recursively sorts the portions on either side.
+
+```sh
+mkdir -p build
+javac -d build 11-sorting-algorithms/QuickSort.java
+java -cp build QuickSort
+```
+
+Sample input:
+
+```text
+6
+5 -1 3 3 0 2
+```
+
+Result: `Sorted array: -1 0 2 3 3 5`
