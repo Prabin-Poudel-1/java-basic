@@ -1028,3 +1028,22 @@ Sample input:
 ```
 
 Result: `Sorted array: -1 0 2 3 3 5`
+
+### Selection sort
+
+[SelectionSort.java](11-sorting-algorithms/SelectionSort.java) sorts 1 to 100 whole numbers in ascending order. On each pass it selects the smallest remaining value and places it at the beginning of the unsorted portion.
+
+```sh
+mkdir -p build
+javac -d build 11-sorting-algorithms/SelectionSort.java
+java -cp build SelectionSort
+```
+
+Sample input:
+
+```text
+6
+5 -1 3 3 0 2
+```
+
+Result: `Sorted array: -1 0 2 3 3 5`
