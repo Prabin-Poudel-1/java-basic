@@ -1007,3 +1007,24 @@ Sample input:
 ```
 
 Result: `Found at index 4`
+
+## Sorting algorithms
+
+### Bubble sort
+
+[BubbleSort.java](11-sorting-algorithms/BubbleSort.java) sorts 1 to 100 whole numbers in ascending order. It compares neighboring values and swaps them when they are out of order; an already sorted pass ends the algorithm early.
+
+```sh
+mkdir -p build
+javac -d build 11-sorting-algorithms/BubbleSort.java
+java -cp build BubbleSort
+```
+
+Sample input:
+
+```text
+6
+5 -1 3 3 0 2
+```
+
+Result: `Sorted array: -1 0 2 3 3 5`
