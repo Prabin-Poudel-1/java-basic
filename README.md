@@ -1047,3 +1047,22 @@ Sample input:
 ```
 
 Result: `Sorted array: -1 0 2 3 3 5`
+
+### Insertion sort
+
+[InsertionSort.java](11-sorting-algorithms/InsertionSort.java) sorts 1 to 100 whole numbers in ascending order. It takes each next value and inserts it into its correct position in the already sorted part of the array.
+
+```sh
+mkdir -p build
+javac -d build 11-sorting-algorithms/InsertionSort.java
+java -cp build InsertionSort
+```
+
+Sample input:
+
+```text
+6
+5 -1 3 3 0 2
+```
+
+Result: `Sorted array: -1 0 2 3 3 5`
