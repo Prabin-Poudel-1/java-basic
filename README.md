@@ -1214,3 +1214,29 @@ The product matrix is:
 58 64
 139 154
 ```
+
+### Matrix transpose
+
+[MatrixTranspose.java](12-two-dimensional-arrays/MatrixTranspose.java) reads a matrix with 1 to 10 rows and columns, then displays its transpose by turning each original column into a row.
+
+```sh
+mkdir -p build
+javac -d build 12-two-dimensional-arrays/MatrixTranspose.java
+java -cp build MatrixTranspose
+```
+
+Sample input:
+
+```text
+2 3
+1 2 3
+4 5 6
+```
+
+The transpose is:
+
+```text
+1 4
+2 5
+3 6
+```
