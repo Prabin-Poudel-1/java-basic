@@ -1185,3 +1185,32 @@ The difference matrix is:
 8 6
 4 2
 ```
+
+### Matrix multiplication
+
+[MatrixMultiplication.java](12-two-dimensional-arrays/MatrixMultiplication.java) multiplies two matrices when the first matrix's column count equals the second matrix's row count. Each dimension must be from 1 to 10.
+
+```sh
+mkdir -p build
+javac -d build 12-two-dimensional-arrays/MatrixMultiplication.java
+java -cp build MatrixMultiplication
+```
+
+Sample input:
+
+```text
+2 3
+1 2 3
+4 5 6
+3 2
+7 8
+9 10
+11 12
+```
+
+The product matrix is:
+
+```text
+58 64
+139 154
+```
