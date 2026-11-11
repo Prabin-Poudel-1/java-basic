@@ -1158,3 +1158,30 @@ The sum matrix is:
 6 8
 10 12
 ```
+
+### Matrix subtraction
+
+[MatrixSubtraction.java](12-two-dimensional-arrays/MatrixSubtraction.java) subtracts the second matrix from the first. Both matrices use the same row and column counts, each from 1 to 10.
+
+```sh
+mkdir -p build
+javac -d build 12-two-dimensional-arrays/MatrixSubtraction.java
+java -cp build MatrixSubtraction
+```
+
+Sample input:
+
+```text
+2 2
+9 8
+7 6
+1 2
+3 4
+```
+
+The difference matrix is:
+
+```text
+8 6
+4 2
+```
