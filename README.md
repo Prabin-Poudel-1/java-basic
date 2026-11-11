@@ -1240,3 +1240,24 @@ The transpose is:
 2 5
 3 6
 ```
+
+### Sum of main diagonal elements
+
+[DiagonalSum.java](12-two-dimensional-arrays/DiagonalSum.java) reads a square matrix of size 1 to 10 and adds the values whose row and column indexes are equal (the main diagonal).
+
+```sh
+mkdir -p build
+javac -d build 12-two-dimensional-arrays/DiagonalSum.java
+java -cp build DiagonalSum
+```
+
+Sample input:
+
+```text
+3
+1 2 3
+4 5 6
+7 8 9
+```
+
+Result: `Main diagonal sum: 15`
