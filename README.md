@@ -1131,3 +1131,30 @@ The displayed matrix is:
 1 2 3
 4 5 6
 ```
+
+### Matrix addition
+
+[MatrixAddition.java](12-two-dimensional-arrays/MatrixAddition.java) adds two matrices with the same dimensions. Enter row and column counts from 1 to 10, then enter each matrix row by row.
+
+```sh
+mkdir -p build
+javac -d build 12-two-dimensional-arrays/MatrixAddition.java
+java -cp build MatrixAddition
+```
+
+Sample input:
+
+```text
+2 2
+1 2
+3 4
+5 6
+7 8
+```
+
+The sum matrix is:
+
+```text
+6 8
+10 12
+```
