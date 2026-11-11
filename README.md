@@ -1302,3 +1302,23 @@ Sample input:
 ```
 
 Result: `Largest matrix element: 11`
+
+## String programs
+
+### Read and display a string
+
+[ReadDisplayString.java](13-string-programs/ReadDisplayString.java) reads a complete line, including spaces, and displays it. An empty line is accepted.
+
+```sh
+mkdir -p build
+javac -d build 13-string-programs/ReadDisplayString.java
+java -cp build ReadDisplayString
+```
+
+Sample input:
+
+```text
+Hello, Java and C++!
+```
+
+Result: `You entered: Hello, Java and C++!`
