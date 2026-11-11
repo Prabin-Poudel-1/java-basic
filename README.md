@@ -1104,3 +1104,30 @@ Sample input:
 ```
 
 Result: `Sorted array: -1 0 2 3 3 5`
+
+## Two-dimensional arrays and matrices
+
+### Input and display a matrix
+
+[MatrixInputDisplay.java](12-two-dimensional-arrays/MatrixInputDisplay.java) reads row and column counts from 1 to 10, then reads and displays the matrix row by row.
+
+```sh
+mkdir -p build
+javac -d build 12-two-dimensional-arrays/MatrixInputDisplay.java
+java -cp build MatrixInputDisplay
+```
+
+Sample input:
+
+```text
+2 3
+1 2 3
+4 5 6
+```
+
+The displayed matrix is:
+
+```text
+1 2 3
+4 5 6
+```
