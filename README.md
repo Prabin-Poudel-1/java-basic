@@ -1261,3 +1261,24 @@ Sample input:
 ```
 
 Result: `Main diagonal sum: 15`
+
+### Check whether a matrix is symmetric
+
+[SymmetricMatrix.java](12-two-dimensional-arrays/SymmetricMatrix.java) reads a square matrix of size 1 to 10 and checks whether each value at row `i`, column `j` equals the value at row `j`, column `i`.
+
+```sh
+mkdir -p build
+javac -d build 12-two-dimensional-arrays/SymmetricMatrix.java
+java -cp build SymmetricMatrix
+```
+
+Sample input:
+
+```text
+3
+1 2 3
+2 4 5
+3 5 6
+```
+
+Result: `Symmetric matrix`
