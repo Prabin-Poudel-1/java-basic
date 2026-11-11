@@ -1282,3 +1282,23 @@ Sample input:
 ```
 
 Result: `Symmetric matrix`
+
+### Find the largest matrix element
+
+[LargestMatrixElement.java](12-two-dimensional-arrays/LargestMatrixElement.java) reads a matrix with 1 to 10 rows and columns and tracks the largest whole number as each value is entered. Negative values are supported.
+
+```sh
+mkdir -p build
+javac -d build 12-two-dimensional-arrays/LargestMatrixElement.java
+java -cp build LargestMatrixElement
+```
+
+Sample input:
+
+```text
+2 3
+-5 2 7
+0 11 4
+```
+
+Result: `Largest matrix element: 11`
