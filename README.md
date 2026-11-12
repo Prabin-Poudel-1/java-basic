@@ -1444,3 +1444,17 @@ morning
 ```
 
 Result: `Concatenated string: Good morning`
+
+### Character frequency
+
+[CharacterFrequency.java](13-string-programs/CharacterFrequency.java) counts each distinct character in a full line, preserving the order of its first appearance. Counting is case-sensitive; spaces are shown as `(space)`. An empty line has no character entries.
+
+```sh
+mkdir -p build
+javac -d build 13-string-programs/CharacterFrequency.java
+java -cp build CharacterFrequency
+```
+
+Sample input: `banana`
+
+Result: `b: 1`, `a: 3`, and `n: 2`
