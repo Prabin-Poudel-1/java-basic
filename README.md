@@ -1364,3 +1364,17 @@ java -cp build PalindromeString
 Sample input: `A man, a plan, a canal: Panama!`
 
 Result: `Palindrome`
+
+### Count vowels and consonants
+
+[CountVowelsConsonants.java](13-string-programs/CountVowelsConsonants.java) counts ASCII English letters in a line, treating uppercase and lowercase equally. Spaces, punctuation, and digits are ignored; `a`, `e`, `i`, `o`, and `u` are vowels, while other letters are consonants.
+
+```sh
+mkdir -p build
+javac -d build 13-string-programs/CountVowelsConsonants.java
+java -cp build CountVowelsConsonants
+```
+
+Sample input: `Hello, World! 123`
+
+Result: `Vowels: 3` and `Consonants: 7`
