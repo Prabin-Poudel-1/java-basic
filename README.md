@@ -1425,3 +1425,22 @@ banana
 ```
 
 Result: `First string comes before the second`
+
+### Concatenate two strings
+
+[ConcatenateStrings.java](13-string-programs/ConcatenateStrings.java) reads two complete lines and joins them in order. It does not add a separator, so include spaces in either input line when needed.
+
+```sh
+mkdir -p build
+javac -d build 13-string-programs/ConcatenateStrings.java
+java -cp build ConcatenateStrings
+```
+
+Sample input:
+
+```text
+Good 
+morning
+```
+
+Result: `Concatenated string: Good morning`
