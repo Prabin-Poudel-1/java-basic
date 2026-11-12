@@ -1322,3 +1322,17 @@ Hello, Java and C++!
 ```
 
 Result: `You entered: Hello, Java and C++!`
+
+### Find the length of a string
+
+[StringLength.java](13-string-programs/StringLength.java) reads a full line of text and prints its length, including spaces. An empty line has length zero.
+
+```sh
+mkdir -p build
+javac -d build 13-string-programs/StringLength.java
+java -cp build StringLength
+```
+
+Sample input: `Hello world`
+
+Result: `String length: 11`
