@@ -1350,3 +1350,17 @@ java -cp build ReverseString
 Sample input: `A man`
 
 Result: `Reversed string: nam A`
+
+### Check for a palindrome string
+
+[PalindromeString.java](13-string-programs/PalindromeString.java) checks whether a line reads the same forward and backward. It ignores spaces, punctuation, and letter case; this beginner example compares ASCII letters and digits.
+
+```sh
+mkdir -p build
+javac -d build 13-string-programs/PalindromeString.java
+java -cp build PalindromeString
+```
+
+Sample input: `A man, a plan, a canal: Panama!`
+
+Result: `Palindrome`
