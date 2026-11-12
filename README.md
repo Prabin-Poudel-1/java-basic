@@ -1406,3 +1406,22 @@ java -cp build ChangeCase
 Sample input: `Java 101!`
 
 Result: `Uppercase: JAVA 101!` and `Lowercase: java 101!`
+
+### Compare two strings
+
+[CompareStrings.java](13-string-programs/CompareStrings.java) reads two complete lines and compares them lexicographically, including spaces and letter case. It reports whether they are equal or which comes first.
+
+```sh
+mkdir -p build
+javac -d build 13-string-programs/CompareStrings.java
+java -cp build CompareStrings
+```
+
+Sample input:
+
+```text
+apple
+banana
+```
+
+Result: `First string comes before the second`
