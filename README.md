@@ -1336,3 +1336,17 @@ java -cp build StringLength
 Sample input: `Hello world`
 
 Result: `String length: 11`
+
+### Reverse a string
+
+[ReverseString.java](13-string-programs/ReverseString.java) reads a full line, including spaces, and prints its characters in reverse order. An empty line remains empty.
+
+```sh
+mkdir -p build
+javac -d build 13-string-programs/ReverseString.java
+java -cp build ReverseString
+```
+
+Sample input: `A man`
+
+Result: `Reversed string: nam A`
