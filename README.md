@@ -1378,3 +1378,17 @@ java -cp build CountVowelsConsonants
 Sample input: `Hello, World! 123`
 
 Result: `Vowels: 3` and `Consonants: 7`
+
+### Count words in a string
+
+[CountWords.java](13-string-programs/CountWords.java) counts whitespace-separated words in a full line. Multiple spaces do not add extra words, and an empty or whitespace-only line has a count of zero.
+
+```sh
+mkdir -p build
+javac -d build 13-string-programs/CountWords.java
+java -cp build CountWords
+```
+
+Sample input: `Hello, world! from Java`
+
+Result: `Word count: 4`
