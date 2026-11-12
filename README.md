@@ -1392,3 +1392,17 @@ java -cp build CountWords
 Sample input: `Hello, world! from Java`
 
 Result: `Word count: 4`
+
+### Convert text to uppercase and lowercase
+
+[ChangeCase.java](13-string-programs/ChangeCase.java) reads a full line and displays uppercase and lowercase versions. This beginner example converts ASCII English letters and leaves spaces, digits, and punctuation unchanged.
+
+```sh
+mkdir -p build
+javac -d build 13-string-programs/ChangeCase.java
+java -cp build ChangeCase
+```
+
+Sample input: `Java 101!`
+
+Result: `Uppercase: JAVA 101!` and `Lowercase: java 101!`
