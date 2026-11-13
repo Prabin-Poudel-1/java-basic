@@ -1623,3 +1623,23 @@ Ada Lovelace
 ```
 
 The program displays the student's name, roll number, and age.
+
+### Create an Employee class
+
+[EmployeeClass.java](15-basic-oop/EmployeeClass.java) creates an `Employee` object with a name, positive ID, and finite non-negative monthly salary. Its methods calculate annual salary and display the details. Names may contain spaces.
+
+```sh
+mkdir -p build
+javac -d build 15-basic-oop/EmployeeClass.java
+java -cp build EmployeeClass
+```
+
+Sample input:
+
+```text
+Ada Lovelace
+102
+55000.50
+```
+
+The annual salary is displayed as 660006.00.
