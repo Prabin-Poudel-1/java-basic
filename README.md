@@ -1472,3 +1472,17 @@ java -cp build RemoveSpaces
 Sample input: `a b  c`
 
 Result: `Without spaces: abc`
+
+### Find duplicate characters
+
+[DuplicateCharacters.java](13-string-programs/DuplicateCharacters.java) lists each character that appears more than once, with its count. Results follow the order of first appearance; matching is case-sensitive, and spaces are labeled `(space)`.
+
+```sh
+mkdir -p build
+javac -d build 13-string-programs/DuplicateCharacters.java
+java -cp build DuplicateCharacters
+```
+
+Sample input: `banana`
+
+Result: `a: 3` and `n: 2`
