@@ -1573,3 +1573,31 @@ Grace Hopper
 ```
 
 The program displays both complete student records.
+
+### Calculate student results using records
+
+[StudentResultFromRecords.java](14-structures-classes/StudentResultFromRecords.java) stores 1–100 students in an array of `StudentRecord` objects. For each student, enter a name, positive roll number, and marks from 0 to 100 in three subjects. It displays total, average, and Pass when every subject is at least 40; otherwise it displays Fail.
+
+```sh
+mkdir -p build
+javac -d build 14-structures-classes/StudentResultFromRecords.java
+java -cp build StudentResultFromRecords
+```
+
+Sample input:
+
+```text
+2
+Ada Lovelace
+101
+90
+85
+95
+Grace Hopper
+102
+70
+35
+88
+```
+
+The first student passes with an average of 90.00%; the second fails because one subject is below 40.
