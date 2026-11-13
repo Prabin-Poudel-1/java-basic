@@ -1458,3 +1458,17 @@ java -cp build CharacterFrequency
 Sample input: `banana`
 
 Result: `b: 1`, `a: 3`, and `n: 2`
+
+### Remove spaces from a string
+
+[RemoveSpaces.java](13-string-programs/RemoveSpaces.java) removes ordinary space characters from a full line while preserving all other characters and their order.
+
+```sh
+mkdir -p build
+javac -d build 13-string-programs/RemoveSpaces.java
+java -cp build RemoveSpaces
+```
+
+Sample input: `a b  c`
+
+Result: `Without spaces: abc`
