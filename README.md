@@ -1601,3 +1601,25 @@ Grace Hopper
 ```
 
 The first student passes with an average of 90.00%; the second fails because one subject is below 40.
+
+## Basic OOP
+
+### Create a Student class
+
+[StudentClass.java](15-basic-oop/StudentClass.java) creates a `Student` object, stores its name, positive roll number, and positive age, then calls a method to display its details. Names may contain spaces.
+
+```sh
+mkdir -p build
+javac -d build 15-basic-oop/StudentClass.java
+java -cp build StudentClass
+```
+
+Sample input:
+
+```text
+Ada Lovelace
+101
+36
+```
+
+The program displays the student's name, roll number, and age.
