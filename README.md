@@ -1508,3 +1508,23 @@ Prabin Poudel
 ```
 
 The program displays the name, roll number, and age.
+
+### Employee information
+
+[EmployeeInformation.java](14-structures-classes/EmployeeInformation.java) stores an employee's name, positive ID, and non-negative monthly salary in an `Employee` class, then displays the record. Names can contain spaces.
+
+```sh
+mkdir -p build
+javac -d build 14-structures-classes/EmployeeInformation.java
+java -cp build EmployeeInformation
+```
+
+Sample input:
+
+```text
+Ada Lovelace
+102
+55000.50
+```
+
+The salary is displayed to two decimal places.
