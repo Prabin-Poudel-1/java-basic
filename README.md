@@ -1486,3 +1486,25 @@ java -cp build DuplicateCharacters
 Sample input: `banana`
 
 Result: `a: 3` and `n: 2`
+
+## Structures and classes
+
+### Student information
+
+[StudentInformation.java](14-structures-classes/StudentInformation.java) stores a student's name, positive roll number, and positive age in a `Student` class, then displays the record. Names can contain spaces.
+
+```sh
+mkdir -p build
+javac -d build 14-structures-classes/StudentInformation.java
+java -cp build StudentInformation
+```
+
+Sample input:
+
+```text
+Prabin Poudel
+27
+20
+```
+
+The program displays the name, roll number, and age.
