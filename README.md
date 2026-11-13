@@ -1549,3 +1549,27 @@ J. R. R. Tolkien
 ```
 
 The program displays all four fields.
+
+### Multiple student records
+
+[MultipleStudentRecords.java](14-structures-classes/MultipleStudentRecords.java) stores and displays 1–100 student records in an array of `Student` objects. Each name may contain spaces; roll numbers and ages must be positive whole numbers.
+
+```sh
+mkdir -p build
+javac -d build 14-structures-classes/MultipleStudentRecords.java
+java -cp build MultipleStudentRecords
+```
+
+Sample input:
+
+```text
+2
+Ada Lovelace
+101
+36
+Grace Hopper
+102
+85
+```
+
+The program displays both complete student records.
