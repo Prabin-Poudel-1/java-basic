@@ -1757,3 +1757,17 @@ Ada Lovelace
 ```
 
 The program displays the validated name and age.
+
+### Bank account balance management
+
+[BankAccountBalance.java](16-encapsulation/BankAccountBalance.java) protects the balance in a private field. Deposit and withdrawal methods validate transactions; a withdrawal above the available balance is declined.
+
+```sh
+mkdir -p build
+javac -d build 16-encapsulation/BankAccountBalance.java
+java -cp build BankAccountBalance
+```
+
+Sample input: `1000 250 400`
+
+Result: `Balance: 850.00`. An oversized withdrawal leaves the deposited balance unchanged.
