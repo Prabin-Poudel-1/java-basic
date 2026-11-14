@@ -1679,3 +1679,17 @@ Ada Lovelace
 ```
 
 The balance is 1250.00 before withdrawal and 850.00 afterward.
+
+### Object creation and method calling
+
+[ObjectMethodCalling.java](15-basic-oop/ObjectMethodCalling.java) creates a `Greeter` object, sets its name, and calls the object's `greet` method.
+
+```sh
+mkdir -p build
+javac -d build 15-basic-oop/ObjectMethodCalling.java
+java -cp build ObjectMethodCalling
+```
+
+Sample input: `Ada Lovelace`
+
+Result: `Hello, Ada Lovelace!`
