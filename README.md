@@ -1705,3 +1705,22 @@ java -cp build ConstructorExample
 ```
 
 No input is required. The default name is `New Student`, and the default roll number is `1`.
+
+### Parameterized constructor
+
+[ParameterizedConstructor.java](15-basic-oop/ParameterizedConstructor.java) passes a student's name and positive roll number to a `Student` constructor when creating the object, then displays the stored values.
+
+```sh
+mkdir -p build
+javac -d build 15-basic-oop/ParameterizedConstructor.java
+java -cp build ParameterizedConstructor
+```
+
+Sample input:
+
+```text
+Grace Hopper
+102
+```
+
+The program displays the name and roll number.
