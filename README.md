@@ -1736,3 +1736,24 @@ java -cp build ConstructorOverloading
 ```
 
 No input is required. The output shows both the default student and Grace Hopper.
+
+## Encapsulation
+
+### Private variables with getter and setter
+
+[PrivateVariables.java](16-encapsulation/PrivateVariables.java) keeps a student's name and age private. Setter methods validate values, and getter methods provide read access.
+
+```sh
+mkdir -p build
+javac -d build 16-encapsulation/PrivateVariables.java
+java -cp build PrivateVariables
+```
+
+Sample input:
+
+```text
+Ada Lovelace
+36
+```
+
+The program displays the validated name and age.
