@@ -1693,3 +1693,15 @@ java -cp build ObjectMethodCalling
 Sample input: `Ada Lovelace`
 
 Result: `Hello, Ada Lovelace!`
+
+### Constructor example
+
+[ConstructorExample.java](15-basic-oop/ConstructorExample.java) demonstrates a no-argument constructor. It assigns default values to a `Student` object when the object is created, then displays them.
+
+```sh
+mkdir -p build
+javac -d build 15-basic-oop/ConstructorExample.java
+java -cp build ConstructorExample
+```
+
+No input is required. The default name is `New Student`, and the default roll number is `1`.
