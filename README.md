@@ -1643,3 +1643,17 @@ Ada Lovelace
 ```
 
 The annual salary is displayed as 660006.00.
+
+### Create a Rectangle class
+
+[RectangleClass.java](15-basic-oop/RectangleClass.java) stores a rectangle's non-negative length and width in a `Rectangle` object. Its methods calculate area and perimeter; results are displayed to two decimal places.
+
+```sh
+mkdir -p build
+javac -d build 15-basic-oop/RectangleClass.java
+java -cp build RectangleClass
+```
+
+Sample input: `5 3`
+
+Result: area `15.00`, perimeter `16.00`.
