@@ -1724,3 +1724,15 @@ Grace Hopper
 ```
 
 The program displays the name and roll number.
+
+### Constructor overloading
+
+[ConstructorOverloading.java](15-basic-oop/ConstructorOverloading.java) defines two `Student` constructors: one uses default values, and another accepts a name and roll number. The program creates and displays one object with each constructor.
+
+```sh
+mkdir -p build
+javac -d build 15-basic-oop/ConstructorOverloading.java
+java -cp build ConstructorOverloading
+```
+
+No input is required. The output shows both the default student and Grace Hopper.
