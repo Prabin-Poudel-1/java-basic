@@ -1785,3 +1785,25 @@ java -cp build StudentMarksValidation
 Sample input: `85 90 78`
 
 The average is `84.33`. Values below 0 or above 100 are rejected.
+
+## Inheritance
+
+### Person to Student
+
+[PersonStudentInheritance.java](17-inheritance/PersonStudentInheritance.java) defines a `Person` base class and a `Student` subclass. The student inherits name and age, adds a roll number, and displays inherited and student-specific details.
+
+```sh
+mkdir -p build
+javac -d build 17-inheritance/PersonStudentInheritance.java
+java -cp build PersonStudentInheritance
+```
+
+Sample input:
+
+```text
+Ada Lovelace
+36
+101
+```
+
+The output includes the student's name, age, and roll number.
