@@ -1771,3 +1771,17 @@ java -cp build BankAccountBalance
 Sample input: `1000 250 400`
 
 Result: `Balance: 850.00`. An oversized withdrawal leaves the deposited balance unchanged.
+
+### Student marks validation
+
+[StudentMarksValidation.java](16-encapsulation/StudentMarksValidation.java) stores three subject marks privately. The setter accepts only whole-number marks from 0 to 100; getters display accepted values, and the program calculates their average.
+
+```sh
+mkdir -p build
+javac -d build 16-encapsulation/StudentMarksValidation.java
+java -cp build StudentMarksValidation
+```
+
+Sample input: `85 90 78`
+
+The average is `84.33`. Values below 0 or above 100 are rejected.
