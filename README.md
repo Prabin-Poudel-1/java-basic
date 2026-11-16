@@ -1807,3 +1807,10 @@ Ada Lovelace
 ```
 
 The output includes the student's name, age, and roll number.
+
+### Person to Employee inheritance
+`PersonEmployeeInheritance.java` extends `Person` with employee ID and salary.
+```sh
+javac 17-inheritance/PersonEmployeeInheritance.java && java -cp 17-inheritance PersonEmployeeInheritance
+```
+Input name, age, ID, then monthly salary.
