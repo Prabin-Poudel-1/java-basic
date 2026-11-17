@@ -1828,3 +1828,10 @@ Enter radius, then rectangle length and width.
 javac 17-inheritance/VehicleCarBike.java && java -cp 17-inheritance VehicleCarBike
 ```
 Enter car brand, speed, seats, then bike brand, speed, gears.
+
+### Single inheritance
+`SingleInheritance.java` demonstrates one subclass (`Dog`) inheriting from one base class (`Animal`).
+```sh
+javac 17-inheritance/SingleInheritance.java && java -cp 17-inheritance SingleInheritance
+```
+Enter an animal name and breed.
