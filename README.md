@@ -1821,3 +1821,10 @@ Input name, age, ID, then monthly salary.
 javac 17-inheritance/ShapeCircleRectangle.java && java -cp 17-inheritance ShapeCircleRectangle
 ```
 Enter radius, then rectangle length and width.
+
+### Vehicle to Car/Bike inheritance
+`VehicleCarBike.java` shares brand and speed in a base class; `Car` adds seats and `Bike` adds gears.
+```sh
+javac 17-inheritance/VehicleCarBike.java && java -cp 17-inheritance VehicleCarBike
+```
+Enter car brand, speed, seats, then bike brand, speed, gears.
