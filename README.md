@@ -1835,3 +1835,10 @@ Enter car brand, speed, seats, then bike brand, speed, gears.
 javac 17-inheritance/SingleInheritance.java && java -cp 17-inheritance SingleInheritance
 ```
 Enter an animal name and breed.
+
+### Multilevel inheritance
+`MultilevelInheritance.java` demonstrates `Person` → `Employee` → `Manager`.
+```sh
+javac 17-inheritance/MultilevelInheritance.java && java -cp 17-inheritance MultilevelInheritance
+```
+Enter name, positive ID, and department.
