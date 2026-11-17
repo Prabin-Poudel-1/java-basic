@@ -1842,3 +1842,10 @@ Enter an animal name and breed.
 javac 17-inheritance/MultilevelInheritance.java && java -cp 17-inheritance MultilevelInheritance
 ```
 Enter name, positive ID, and department.
+
+### Hierarchical inheritance
+`HierarchicalInheritance.java` gives `Student` and `Teacher` the same `Person` base class.
+```sh
+javac 17-inheritance/HierarchicalInheritance.java && java -cp 17-inheritance HierarchicalInheritance
+```
+Enter student name, roll, teacher name, and subject on separate lines.
