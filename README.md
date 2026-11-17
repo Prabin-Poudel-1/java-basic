@@ -1814,3 +1814,10 @@ The output includes the student's name, age, and roll number.
 javac 17-inheritance/PersonEmployeeInheritance.java && java -cp 17-inheritance PersonEmployeeInheritance
 ```
 Input name, age, ID, then monthly salary.
+
+### Shape to Circle/Rectangle inheritance
+`ShapeCircleRectangle.java` uses an abstract `Shape` base and derived `Circle` and `Rectangle` classes to calculate areas.
+```sh
+javac 17-inheritance/ShapeCircleRectangle.java && java -cp 17-inheritance ShapeCircleRectangle
+```
+Enter radius, then rectangle length and width.
