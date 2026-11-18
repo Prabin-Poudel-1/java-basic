@@ -1869,3 +1869,12 @@ javac -d build 18-polymorphism/MethodOverloading.java
 java -cp build MethodOverloading
 ```
 Sample input: `2 5 3`; areas are `12.57` and `15.00`. Negative or non-finite dimensions are rejected.
+
+### Method overriding
+[MethodOverriding.java](18-polymorphism/MethodOverriding.java) overrides `Animal.makeSound()` in `Dog`. Calling the method through an `Animal` reference demonstrates runtime method dispatch.
+```sh
+mkdir -p build
+javac -d build 18-polymorphism/MethodOverriding.java
+java -cp build MethodOverriding
+```
+No input is required. The base object prints `Animal makes a sound.`, and the overridden call prints `Dog says: Woof!`.
