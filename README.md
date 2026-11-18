@@ -1849,3 +1849,12 @@ Enter name, positive ID, and department.
 javac 17-inheritance/HierarchicalInheritance.java && java -cp 17-inheritance HierarchicalInheritance
 ```
 Enter student name, roll, teacher name, and subject on separate lines.
+
+### Interface-based inheritance equivalent in Java
+[InterfaceBasedInheritance.java](17-inheritance/InterfaceBasedInheritance.java) defines a `MeasurableShape` interface and implements it in a `Circle` class, demonstrating Java's interface-based alternative to multiple inheritance.
+```sh
+mkdir -p build
+javac -d build 17-inheritance/InterfaceBasedInheritance.java
+java -cp build InterfaceBasedInheritance
+```
+Sample input: `2`; result: `Circle area: 12.57`. Negative and non-finite radii are rejected.
