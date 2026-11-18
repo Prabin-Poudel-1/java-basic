@@ -1858,3 +1858,14 @@ javac -d build 17-inheritance/InterfaceBasedInheritance.java
 java -cp build InterfaceBasedInheritance
 ```
 Sample input: `2`; result: `Circle area: 12.57`. Negative and non-finite radii are rejected.
+
+## Polymorphism
+
+### Method overloading
+[MethodOverloading.java](18-polymorphism/MethodOverloading.java) overloads `area`: one method accepts a circle radius, and another accepts rectangle length and width.
+```sh
+mkdir -p build
+javac -d build 18-polymorphism/MethodOverloading.java
+java -cp build MethodOverloading
+```
+Sample input: `2 5 3`; areas are `12.57` and `15.00`. Negative or non-finite dimensions are rejected.
