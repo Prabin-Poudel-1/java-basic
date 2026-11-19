@@ -1878,3 +1878,12 @@ javac -d build 18-polymorphism/MethodOverriding.java
 java -cp build MethodOverriding
 ```
 No input is required. The base object prints `Animal makes a sound.`, and the overridden call prints `Dog says: Woof!`.
+
+### Runtime polymorphism
+[RuntimePolymorphism.java](18-polymorphism/RuntimePolymorphism.java) stores `Circle` and `Rectangle` objects in a `Shape` array. Each object's overridden `area()` method is selected at runtime.
+```sh
+mkdir -p build
+javac -d build 18-polymorphism/RuntimePolymorphism.java
+java -cp build RuntimePolymorphism
+```
+Enter a non-negative circle radius, rectangle length, and width. For input `2 4 3`, the areas are `12.57` and `12.00`. Zero dimensions are accepted; negative, non-finite, or extra input is rejected.
