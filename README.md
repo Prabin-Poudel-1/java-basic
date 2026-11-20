@@ -1909,3 +1909,14 @@ javac -d build 20-operator-overloading/ComplexNumberAddition.java
 java -cp build ComplexNumberAddition
 ```
 Enter real and imaginary parts for both numbers. Input `3 2 1 -5` produces `4.00 - 3.00i`. Zero and negative parts are allowed; non-finite or extra input is rejected.
+
+## Exception handling
+
+### Divide-by-zero handling
+[DivideByZero.java](21-exception-handling/DivideByZero.java) reads a dividend and divisor, then catches an `ArithmeticException` when the divisor is zero.
+```sh
+mkdir -p build
+javac -d build 21-exception-handling/DivideByZero.java
+java -cp build DivideByZero
+```
+Input `12 3` prints `Result: 4.00`; input `12 0` prints a clear error. Finite decimal and negative values are accepted, but extra input is rejected.
