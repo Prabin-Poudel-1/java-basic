@@ -1887,3 +1887,14 @@ javac -d build 18-polymorphism/RuntimePolymorphism.java
 java -cp build RuntimePolymorphism
 ```
 Enter a non-negative circle radius, rectangle length, and width. For input `2 4 3`, the areas are `12.57` and `12.00`. Zero dimensions are accepted; negative, non-finite, or extra input is rejected.
+
+## Abstraction
+
+### Abstract Employee class
+[AbstractEmployee.java](19-abstraction/AbstractEmployee.java) defines an abstract `Employee` with an abstract monthly-pay method. `SalariedEmployee` implements that method, and the base class displays its result.
+```sh
+mkdir -p build
+javac -d build 19-abstraction/AbstractEmployee.java
+java -cp build AbstractEmployee
+```
+Enter a non-empty employee name and a finite, non-negative monthly salary. Example input: `Ada Lovelace` then `3500`; output: `Ada Lovelace's monthly pay: 3500.00`. Zero salary is accepted.
