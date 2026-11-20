@@ -1898,3 +1898,14 @@ javac -d build 19-abstraction/AbstractEmployee.java
 java -cp build AbstractEmployee
 ```
 Enter a non-empty employee name and a finite, non-negative monthly salary. Example input: `Ada Lovelace` then `3500`; output: `Ada Lovelace's monthly pay: 3500.00`. Zero salary is accepted.
+
+## Complex number addition
+
+### Add two complex numbers
+[ComplexNumberAddition.java](20-operator-overloading/ComplexNumberAddition.java) adds real and imaginary parts with an `add` method. Java does not allow user-defined overloading of the `+` operator, so the method provides the equivalent operation.
+```sh
+mkdir -p build
+javac -d build 20-operator-overloading/ComplexNumberAddition.java
+java -cp build ComplexNumberAddition
+```
+Enter real and imaginary parts for both numbers. Input `3 2 1 -5` produces `4.00 - 3.00i`. Zero and negative parts are allowed; non-finite or extra input is rejected.
