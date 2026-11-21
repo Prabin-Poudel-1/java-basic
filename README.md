@@ -1947,3 +1947,12 @@ javac -d build 21-exception-handling/MultipleCatchBlocks.java
 java -cp build MultipleCatchBlocks
 ```
 Input `12 3` prints `Result: 4.00`. Input `12 0` reports division by zero, and non-numeric or extra input is rejected.
+
+### Custom exception
+[CustomException.java](21-exception-handling/CustomException.java) defines a checked `InvalidAgeException` and throws it when an age is outside the allowed range.
+```sh
+mkdir -p build
+javac -d build 21-exception-handling/CustomException.java
+java -cp build CustomException
+```
+Input `18` prints `Valid age: 18`; ages below 0 or above 130 are rejected with the custom exception message.
