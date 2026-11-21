@@ -1920,3 +1920,12 @@ javac -d build 21-exception-handling/DivideByZero.java
 java -cp build DivideByZero
 ```
 Input `12 3` prints `Result: 4.00`; input `12 0` prints a clear error. Finite decimal and negative values are accepted, but extra input is rejected.
+
+### Invalid age exception
+[InvalidAgeException.java](21-exception-handling/InvalidAgeException.java) throws and catches an `IllegalArgumentException` when an age is outside the accepted 0 to 130 range.
+```sh
+mkdir -p build
+javac -d build 21-exception-handling/InvalidAgeException.java
+java -cp build InvalidAgeException
+```
+Input `20` prints `Age accepted: 20`; `0` is also valid, while negative ages and ages above 130 produce an error.
