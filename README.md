@@ -1929,3 +1929,12 @@ javac -d build 21-exception-handling/InvalidAgeException.java
 java -cp build InvalidAgeException
 ```
 Input `20` prints `Age accepted: 20`; `0` is also valid, while negative ages and ages above 130 produce an error.
+
+### Invalid input handling
+[InvalidInputHandling.java](21-exception-handling/InvalidInputHandling.java) catches `InputMismatchException` when the user does not enter exactly two whole numbers.
+```sh
+mkdir -p build
+javac -d build 21-exception-handling/InvalidInputHandling.java
+java -cp build InvalidInputHandling
+```
+Input `12 -5` prints `Sum: 7`. Decimal, non-numeric, missing, or extra values produce a clear message.
