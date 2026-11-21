@@ -1938,3 +1938,12 @@ javac -d build 21-exception-handling/InvalidInputHandling.java
 java -cp build InvalidInputHandling
 ```
 Input `12 -5` prints `Sum: 7`. Decimal, non-numeric, missing, or extra values produce a clear message.
+
+### Multiple catch blocks
+[MultipleCatchBlocks.java](21-exception-handling/MultipleCatchBlocks.java) demonstrates separate handlers for malformed numbers (`NumberFormatException`) and arithmetic errors such as division by zero.
+```sh
+mkdir -p build
+javac -d build 21-exception-handling/MultipleCatchBlocks.java
+java -cp build MultipleCatchBlocks
+```
+Input `12 3` prints `Result: 4.00`. Input `12 0` reports division by zero, and non-numeric or extra input is rejected.
