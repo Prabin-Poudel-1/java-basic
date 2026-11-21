@@ -1956,3 +1956,14 @@ javac -d build 21-exception-handling/CustomException.java
 java -cp build CustomException
 ```
 Input `18` prints `Valid age: 18`; ages below 0 or above 130 are rejected with the custom exception message.
+
+## File handling
+
+### Create a file
+[CreateFile.java](22-file-handling/CreateFile.java) creates an empty `practice-output.txt` in the current working directory. It reports if that file already exists and catches file-system errors.
+```sh
+mkdir -p build
+javac -d build 22-file-handling/CreateFile.java
+java -cp build CreateFile
+```
+No input is required. Run the command from a directory where you want the file created.
