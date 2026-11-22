@@ -1967,3 +1967,12 @@ javac -d build 22-file-handling/CreateFile.java
 java -cp build CreateFile
 ```
 No input is required. Run the command from a directory where you want the file created.
+
+### Write data to a file
+[WriteDataToFile.java](22-file-handling/WriteDataToFile.java) reads one line and saves it as UTF-8 text in `practice_data.txt` in the current working directory. Running it again replaces that file's contents.
+```sh
+mkdir -p build
+javac -d build 22-file-handling/WriteDataToFile.java
+java -cp build WriteDataToFile
+```
+Sample input: `Hello from Java`; the same text is written to the file. An empty line is allowed.
