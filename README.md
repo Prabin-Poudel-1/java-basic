@@ -1985,3 +1985,12 @@ javac -d build 22-file-handling/ReadDataFromFile.java
 java -cp build ReadDataFromFile
 ```
 Create the file first with the write-data example. No input is required.
+
+### Append data
+[AppendDataToFile.java](22-file-handling/AppendDataToFile.java) appends one UTF-8 line to `practice_data.txt`; if the file does not exist, it is created.
+```sh
+mkdir -p build
+javac -d build 22-file-handling/AppendDataToFile.java
+java -cp build AppendDataToFile
+```
+Enter one line to append. An empty line is allowed, and existing content is preserved.
