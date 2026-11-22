@@ -1976,3 +1976,12 @@ javac -d build 22-file-handling/WriteDataToFile.java
 java -cp build WriteDataToFile
 ```
 Sample input: `Hello from Java`; the same text is written to the file. An empty line is allowed.
+
+### Read data from a file
+[ReadDataFromFile.java](22-file-handling/ReadDataFromFile.java) reads and prints each UTF-8 line from `practice_data.txt` in the current working directory. It reports an error if the file is missing and handles empty files.
+```sh
+mkdir -p build
+javac -d build 22-file-handling/ReadDataFromFile.java
+java -cp build ReadDataFromFile
+```
+Create the file first with the write-data example. No input is required.
