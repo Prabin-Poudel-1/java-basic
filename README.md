@@ -2003,3 +2003,12 @@ javac -d build 22-file-handling/StoreStudentRecords.java
 java -cp build StoreStudentRecords
 ```
 For example, enter `2`, then `Asha Rai`, `85`, `Ben`, and `92`. Names must be non-empty and cannot contain commas; marks must be from 0 to 100.
+
+### Search records from a file
+[SearchStudentRecords.java](22-file-handling/SearchStudentRecords.java) searches `student_records.txt` for an exact student name and displays every matching record.
+```sh
+mkdir -p build
+javac -d build 22-file-handling/SearchStudentRecords.java
+java -cp build SearchStudentRecords
+```
+Create the file with the student-record example first. Enter a name such as `Asha Rai`; names are matched exactly, including case.
