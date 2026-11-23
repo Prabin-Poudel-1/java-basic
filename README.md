@@ -1994,3 +1994,12 @@ javac -d build 22-file-handling/AppendDataToFile.java
 java -cp build AppendDataToFile
 ```
 Enter one line to append. An empty line is allowed, and existing content is preserved.
+
+### Store student records
+[StoreStudentRecords.java](22-file-handling/StoreStudentRecords.java) collects 1 to 100 students and writes each name and mark to `student_records.txt` as a comma-separated line. It validates all input before saving.
+```sh
+mkdir -p build
+javac -d build 22-file-handling/StoreStudentRecords.java
+java -cp build StoreStudentRecords
+```
+For example, enter `2`, then `Asha Rai`, `85`, `Ben`, and `92`. Names must be non-empty and cannot contain commas; marks must be from 0 to 100.
