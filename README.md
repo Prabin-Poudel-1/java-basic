@@ -2012,3 +2012,12 @@ javac -d build 22-file-handling/SearchStudentRecords.java
 java -cp build SearchStudentRecords
 ```
 Create the file with the student-record example first. Enter a name such as `Asha Rai`; names are matched exactly, including case.
+
+### Update a record
+[UpdateStudentRecord.java](22-file-handling/UpdateStudentRecord.java) finds the first exact name match in `student_records.txt` and replaces that student's marks. Invalid input and missing names leave the file unchanged.
+```sh
+mkdir -p build
+javac -d build 22-file-handling/UpdateStudentRecord.java
+java -cp build UpdateStudentRecord
+```
+Create the records file first. Enter a student name, then new marks from 0 to 100.
