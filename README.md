@@ -2021,3 +2021,13 @@ javac -d build 22-file-handling/UpdateStudentRecord.java
 java -cp build UpdateStudentRecord
 ```
 Create the records file first. Enter a student name, then new marks from 0 to 100.
+
+
+### Delete a record
+[DeleteStudentRecord.java](22-file-handling/DeleteStudentRecord.java) removes the first record whose student name exactly matches the input. If the name is missing or the input is invalid, the records file is left unchanged.
+```sh
+mkdir -p build
+javac -d build 22-file-handling/DeleteStudentRecord.java
+java -cp build DeleteStudentRecord
+```
+Create `student_records.txt` with the student-record example first. Enter one exact student name, such as `Asha Rai`; the program removes that student's record and keeps all other lines.
