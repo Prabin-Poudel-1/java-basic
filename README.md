@@ -2031,3 +2031,14 @@ javac -d build 22-file-handling/DeleteStudentRecord.java
 java -cp build DeleteStudentRecord
 ```
 Create `student_records.txt` with the student-record example first. Enter one exact student name, such as `Asha Rai`; the program removes that student's record and keeps all other lines.
+
+## Dynamic memory and collections
+
+### Store, search, and delete students
+[StudentRecordsCollection.java](24-dynamic-memory-collections/StudentRecordsCollection.java) uses an `ArrayList` to add, list, find, and remove student records while the program runs. The records are kept in memory and are cleared when the program exits.
+```sh
+mkdir -p build
+javac -d build 24-dynamic-memory-collections/StudentRecordsCollection.java
+java -cp build StudentRecordsCollection
+```
+Choose `1` to enter a name and marks, `2` to list records, `3` to search by exact name, `4` to delete the first exact name match, or `0` to exit. Marks must be from 0 to 100.
