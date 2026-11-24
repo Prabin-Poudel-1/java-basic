@@ -2071,3 +2071,12 @@ javac -d build 25-stack/LinkedListStack.java
 java -cp build LinkedListStack
 ```
 Choose `1` to push an integer, `2` to pop the top item, `3` to display from top to bottom, or `0` to exit. Popping an empty stack is handled with a message.
+
+### Balanced parentheses
+[BalancedParentheses.java](25-stack/BalancedParentheses.java) uses a character stack to check matching `()`, `[]`, and `{}` pairs. Other expression characters are ignored.
+```sh
+mkdir -p build
+javac -d build 25-stack/BalancedParentheses.java
+java -cp build BalancedParentheses
+```
+Enter one expression on a line. For example, `{a + [b * (c + d)]}` is balanced, while `([)]` is not.
