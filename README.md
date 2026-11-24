@@ -2051,3 +2051,14 @@ javac -d build 24-dynamic-memory-collections/SortStudentObjects.java
 java -cp build SortStudentObjects
 ```
 Enter a count from 0 to 100, then one name and mark (0 to 100) per student. For example, `2`, `Asha`, `85`, `Ben`, `70` prints Ben before Asha.
+
+## Stack
+
+### Stack using an array
+[ArrayStack.java](25-stack/ArrayStack.java) implements a last-in, first-out stack with a fixed capacity of five integers. It reports full and empty stack operations.
+```sh
+mkdir -p build
+javac -d build 25-stack/ArrayStack.java
+java -cp build ArrayStack
+```
+Choose `1` to push an integer, `2` to pop the top item, `3` to display from top to bottom, or `0` to exit.
