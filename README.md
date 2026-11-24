@@ -2080,3 +2080,12 @@ javac -d build 25-stack/BalancedParentheses.java
 java -cp build BalancedParentheses
 ```
 Enter one expression on a line. For example, `{a + [b * (c + d)]}` is balanced, while `([)]` is not.
+
+### Infix to postfix conversion
+[InfixToPostfix.java](25-stack/InfixToPostfix.java) converts expressions with letters or numbers, parentheses, and binary `+`, `-`, `*`, `/`, and `^` operators. Exponentiation is right-associative; unary operators are not supported.
+```sh
+mkdir -p build
+javac -d build 25-stack/InfixToPostfix.java
+java -cp build InfixToPostfix
+```
+Enter one expression on a line. For example, `a+b*(c-d)` becomes `a b c d - * +`; malformed expressions are rejected.
