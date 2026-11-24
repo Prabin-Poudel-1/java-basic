@@ -2042,3 +2042,12 @@ javac -d build 24-dynamic-memory-collections/StudentRecordsCollection.java
 java -cp build StudentRecordsCollection
 ```
 Choose `1` to enter a name and marks, `2` to list records, `3` to search by exact name, `4` to delete the first exact name match, or `0` to exit. Marks must be from 0 to 100.
+
+### Sort student objects
+[SortStudentObjects.java](24-dynamic-memory-collections/SortStudentObjects.java) stores student objects in an `ArrayList` and sorts them by marks from lowest to highest, then by name for equal marks.
+```sh
+mkdir -p build
+javac -d build 24-dynamic-memory-collections/SortStudentObjects.java
+java -cp build SortStudentObjects
+```
+Enter a count from 0 to 100, then one name and mark (0 to 100) per student. For example, `2`, `Asha`, `85`, `Ben`, `70` prints Ben before Asha.
