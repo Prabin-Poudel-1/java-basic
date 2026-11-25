@@ -2109,3 +2109,12 @@ javac -d build 26-queue/ArrayQueue.java
 java -cp build ArrayQueue
 ```
 Choose `1` to enqueue an integer, `2` to dequeue from the front, `3` to display from front to rear, or `0` to exit.
+
+### Queue using a linked list
+[LinkedListQueue.java](26-queue/LinkedListQueue.java) implements a first-in, first-out queue with linked nodes. It grows as items are enqueued and releases each node when it is dequeued.
+```sh
+mkdir -p build
+javac -d build 26-queue/LinkedListQueue.java
+java -cp build LinkedListQueue
+```
+Choose `1` to enqueue an integer, `2` to dequeue from the front, `3` to display from front to rear, or `0` to exit.
