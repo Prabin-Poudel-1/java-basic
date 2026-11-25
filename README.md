@@ -2089,3 +2089,12 @@ javac -d build 25-stack/InfixToPostfix.java
 java -cp build InfixToPostfix
 ```
 Enter one expression on a line. For example, `a+b*(c-d)` becomes `a b c d - * +`; malformed expressions are rejected.
+
+### Postfix evaluation
+[EvaluatePostfix.java](25-stack/EvaluatePostfix.java) evaluates a space-separated postfix expression with numeric operands and the binary `+`, `-`, `*`, and `/` operators. Division by zero and malformed expressions are rejected.
+```sh
+mkdir -p build
+javac -d build 25-stack/EvaluatePostfix.java
+java -cp build EvaluatePostfix
+```
+For example, `12 3 4 * +` prints `Result: 24.0`. Enter one expression on a line.
