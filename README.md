@@ -2127,3 +2127,12 @@ javac -d build 26-queue/CircularQueue.java
 java -cp build CircularQueue
 ```
 Choose `1` to enqueue, `2` to dequeue, `3` to display from front to rear, or `0` to exit. Enqueuing to a full queue and dequeuing from an empty queue are handled.
+
+### Priority queue
+[PriorityQueueExample.java](26-queue/PriorityQueueExample.java) uses Java's `PriorityQueue` to process the largest integer priority first. The displayed order is made from a copy, so viewing it does not change the queue.
+```sh
+mkdir -p build
+javac -d build 26-queue/PriorityQueueExample.java
+java -cp build PriorityQueueExample
+```
+Choose `1` to add an integer priority, `2` to remove the highest priority, `3` to display priorities from highest to lowest, or `0` to exit.
