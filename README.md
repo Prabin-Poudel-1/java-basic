@@ -2098,3 +2098,14 @@ javac -d build 25-stack/EvaluatePostfix.java
 java -cp build EvaluatePostfix
 ```
 For example, `12 3 4 * +` prints `Result: 24.0`. Enter one expression on a line.
+
+## Queue
+
+### Queue using an array
+[ArrayQueue.java](26-queue/ArrayQueue.java) implements a first-in, first-out queue with a fixed linear array of five integers. Dequeued positions are reused after the queue becomes empty; this simple linear queue does not wrap around.
+```sh
+mkdir -p build
+javac -d build 26-queue/ArrayQueue.java
+java -cp build ArrayQueue
+```
+Choose `1` to enqueue an integer, `2` to dequeue from the front, `3` to display from front to rear, or `0` to exit.
