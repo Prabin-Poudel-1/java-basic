@@ -2118,3 +2118,12 @@ javac -d build 26-queue/LinkedListQueue.java
 java -cp build LinkedListQueue
 ```
 Choose `1` to enqueue an integer, `2` to dequeue from the front, `3` to display from front to rear, or `0` to exit.
+
+### Circular queue
+[CircularQueue.java](26-queue/CircularQueue.java) stores up to five integers in a circular array, reusing positions as items leave the front.
+```sh
+mkdir -p build
+javac -d build 26-queue/CircularQueue.java
+java -cp build CircularQueue
+```
+Choose `1` to enqueue, `2` to dequeue, `3` to display from front to rear, or `0` to exit. Enqueuing to a full queue and dequeuing from an empty queue are handled.
