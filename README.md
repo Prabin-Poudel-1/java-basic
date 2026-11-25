@@ -2136,3 +2136,14 @@ javac -d build 26-queue/PriorityQueueExample.java
 java -cp build PriorityQueueExample
 ```
 Choose `1` to add an integer priority, `2` to remove the highest priority, `3` to display priorities from highest to lowest, or `0` to exit.
+
+## Linked lists
+
+### Singly linked list
+[SinglyLinkedList.java](27-linked-lists/SinglyLinkedList.java) creates nodes that each store an integer and a link to the next node, then traverses the list to display it.
+```sh
+mkdir -p build
+javac -d build 27-linked-lists/SinglyLinkedList.java
+java -cp build SinglyLinkedList
+```
+Enter a count from 0 to 100, then one integer per line. A count of zero displays an empty list.
