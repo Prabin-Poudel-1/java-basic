@@ -2165,3 +2165,12 @@ javac -d build 27-linked-lists/DeleteLinkedListNode.java
 java -cp build DeleteLinkedListNode
 ```
 Enter a count, that many integer values, and the target value. A missing target leaves the list unchanged.
+
+### Search for a node
+[SearchLinkedListNode.java](27-linked-lists/SearchLinkedListNode.java) traverses a singly linked list and reports the 1-based position of the first matching integer.
+```sh
+mkdir -p build
+javac -d build 27-linked-lists/SearchLinkedListNode.java
+java -cp build SearchLinkedListNode
+```
+Enter a count, that many integer values, and the target value. The program reports when no node matches.
