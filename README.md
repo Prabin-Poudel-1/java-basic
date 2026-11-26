@@ -2230,3 +2230,12 @@ javac -d build 29-trees/InsertIntoBst.java
 java -cp build InsertIntoBst
 ```
 Enter an initial count from 0 to 100, its integer values, then the value to insert.
+
+### Search a binary search tree
+[SearchBst.java](29-trees/SearchBst.java) searches a BST recursively, choosing the left or right subtree using the node value.
+```sh
+mkdir -p build
+javac -d build 29-trees/SearchBst.java
+java -cp build SearchBst
+```
+Enter a count from 0 to 100, the tree's integer values, and the target value.
