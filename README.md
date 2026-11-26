@@ -2156,3 +2156,12 @@ javac -d build 27-linked-lists/InsertLinkedListNodes.java
 java -cp build InsertLinkedListNodes
 ```
 Choose `1` to insert at the beginning, `2` to insert at the end, `3` to display, or `0` to exit.
+
+### Delete a node
+[DeleteLinkedListNode.java](27-linked-lists/DeleteLinkedListNode.java) removes the first node with a matching integer value from a singly linked list and displays the remaining nodes.
+```sh
+mkdir -p build
+javac -d build 27-linked-lists/DeleteLinkedListNode.java
+java -cp build DeleteLinkedListNode
+```
+Enter a count, that many integer values, and the target value. A missing target leaves the list unchanged.
