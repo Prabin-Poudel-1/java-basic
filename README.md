@@ -2183,3 +2183,12 @@ javac -d build 27-linked-lists/ReverseLinkedList.java
 java -cp build ReverseLinkedList
 ```
 Enter a count from 0 to 100, then one integer per line. The original first value becomes the last value.
+
+### Doubly linked list
+[DoublyLinkedList.java](27-linked-lists/DoublyLinkedList.java) links each integer node to both its previous and next node, then traverses the list in both directions.
+```sh
+mkdir -p build
+javac -d build 27-linked-lists/DoublyLinkedList.java
+java -cp build DoublyLinkedList
+```
+Enter a count from 0 to 100, then one integer per line. The output shows the forward and backward order.
