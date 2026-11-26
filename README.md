@@ -2239,3 +2239,12 @@ javac -d build 29-trees/SearchBst.java
 java -cp build SearchBst
 ```
 Enter a count from 0 to 100, the tree's integer values, and the target value.
+
+### Delete from a binary search tree
+[DeleteFromBst.java](29-trees/DeleteFromBst.java) removes a value from a BST, handling leaf nodes, nodes with one child, and nodes with two children.
+```sh
+mkdir -p build
+javac -d build 29-trees/DeleteFromBst.java
+java -cp build DeleteFromBst
+```
+Enter a count from 0 to 100, the tree's integer values, and the target value to remove.
