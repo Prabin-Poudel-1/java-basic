@@ -2201,3 +2201,14 @@ javac -d build 27-linked-lists/CircularLinkedList.java
 java -cp build CircularLinkedList
 ```
 Enter a count from 0 to 100, then one integer per line. A count of zero displays an empty list.
+
+## Trees
+
+### Binary tree in an array
+[BinaryTreeArray.java](29-trees/BinaryTreeArray.java) stores a complete binary tree in an array. For index `i`, the children are at `2 * i + 1` and `2 * i + 2` when those positions exist.
+```sh
+mkdir -p build
+javac -d build 29-trees/BinaryTreeArray.java
+java -cp build BinaryTreeArray
+```
+Enter a count from 0 to 100 and that many integer node values in level order. The program displays each node and its children.
