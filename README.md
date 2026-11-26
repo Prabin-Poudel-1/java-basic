@@ -2147,3 +2147,12 @@ javac -d build 27-linked-lists/SinglyLinkedList.java
 java -cp build SinglyLinkedList
 ```
 Enter a count from 0 to 100, then one integer per line. A count of zero displays an empty list.
+
+### Insert at the beginning or end
+[InsertLinkedListNodes.java](27-linked-lists/InsertLinkedListNodes.java) inserts integer nodes at either end of a singly linked list and displays the list.
+```sh
+mkdir -p build
+javac -d build 27-linked-lists/InsertLinkedListNodes.java
+java -cp build InsertLinkedListNodes
+```
+Choose `1` to insert at the beginning, `2` to insert at the end, `3` to display, or `0` to exit.
