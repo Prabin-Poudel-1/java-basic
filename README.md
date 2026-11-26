@@ -2212,3 +2212,12 @@ javac -d build 29-trees/BinaryTreeArray.java
 java -cp build BinaryTreeArray
 ```
 Enter a count from 0 to 100 and that many integer node values in level order. The program displays each node and its children.
+
+### Binary search tree
+[BinarySearchTree.java](29-trees/BinarySearchTree.java) arranges input integers so smaller values go left and larger values go right, then uses an in-order traversal to display the sorted values. Duplicate values are ignored.
+```sh
+mkdir -p build
+javac -d build 29-trees/BinarySearchTree.java
+java -cp build BinarySearchTree
+```
+Enter a count from 0 to 100, then that many integer values.
