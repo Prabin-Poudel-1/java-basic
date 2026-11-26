@@ -2192,3 +2192,12 @@ javac -d build 27-linked-lists/DoublyLinkedList.java
 java -cp build DoublyLinkedList
 ```
 Enter a count from 0 to 100, then one integer per line. The output shows the forward and backward order.
+
+### Circular linked list
+[CircularLinkedList.java](27-linked-lists/CircularLinkedList.java) links the final node back to the head and displays exactly one full traversal, avoiding an endless loop.
+```sh
+mkdir -p build
+javac -d build 27-linked-lists/CircularLinkedList.java
+java -cp build CircularLinkedList
+```
+Enter a count from 0 to 100, then one integer per line. A count of zero displays an empty list.
