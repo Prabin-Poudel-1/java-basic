@@ -2174,3 +2174,12 @@ javac -d build 27-linked-lists/SearchLinkedListNode.java
 java -cp build SearchLinkedListNode
 ```
 Enter a count, that many integer values, and the target value. The program reports when no node matches.
+
+### Reverse a linked list
+[ReverseLinkedList.java](27-linked-lists/ReverseLinkedList.java) reverses a singly linked list by changing each node's next link, then displays the new order.
+```sh
+mkdir -p build
+javac -d build 27-linked-lists/ReverseLinkedList.java
+java -cp build ReverseLinkedList
+```
+Enter a count from 0 to 100, then one integer per line. The original first value becomes the last value.
