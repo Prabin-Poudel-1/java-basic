@@ -2248,3 +2248,12 @@ javac -d build 29-trees/DeleteFromBst.java
 java -cp build DeleteFromBst
 ```
 Enter a count from 0 to 100, the tree's integer values, and the target value to remove.
+
+### In-order traversal
+[InorderTraversal.java](29-trees/InorderTraversal.java) recursively visits the left child, current node, then right child of a complete binary tree stored in level-order array form.
+```sh
+mkdir -p build
+javac -d build 29-trees/InorderTraversal.java
+java -cp build InorderTraversal
+```
+Enter a count from 0 to 100 and that many node values in level order.
