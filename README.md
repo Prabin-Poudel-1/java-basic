@@ -2266,3 +2266,12 @@ javac -d build 29-trees/PreorderTraversal.java
 java -cp build PreorderTraversal
 ```
 Enter a count from 0 to 100 and that many node values in level order.
+
+### Post-order traversal
+[PostorderTraversal.java](29-trees/PostorderTraversal.java) recursively visits the left child, right child, then current node of a complete binary tree stored in level-order array form.
+```sh
+mkdir -p build
+javac -d build 29-trees/PostorderTraversal.java
+java -cp build PostorderTraversal
+```
+Enter a count from 0 to 100 and that many node values in level order.
