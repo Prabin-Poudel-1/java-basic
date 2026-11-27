@@ -2275,3 +2275,14 @@ javac -d build 29-trees/PostorderTraversal.java
 java -cp build PostorderTraversal
 ```
 Enter a count from 0 to 100 and that many node values in level order.
+
+## Graphs
+
+### Graph representation
+[GraphRepresentation.java](30-graphs/GraphRepresentation.java) represents an undirected graph as numbered vertices and a list of endpoint pairs (an edge list).
+```sh
+mkdir -p build
+javac -d build 30-graphs/GraphRepresentation.java
+java -cp build GraphRepresentation
+```
+Enter a vertex count from 0 to 100, an edge count from 0 to 10000, then one pair of vertex numbers per edge. Vertices are numbered from 0; a graph with no vertices must have no edges.
