@@ -2286,3 +2286,11 @@ javac -d build 30-graphs/GraphRepresentation.java
 java -cp build GraphRepresentation
 ```
 Enter a vertex count from 0 to 100, an edge count from 0 to 10000, then one pair of vertex numbers per edge. Vertices are numbered from 0; a graph with no vertices must have no edges.
+
+### Adjacency matrix
+[AdjacencyMatrix.java](30-graphs/AdjacencyMatrix.java) stores an undirected graph in a square matrix; a 1 marks an edge and a 0 means no edge.
+```sh
+mkdir -p build && javac -d build 30-graphs/AdjacencyMatrix.java
+java -cp build AdjacencyMatrix
+```
+Enter vertex and edge counts, then endpoint pairs. Vertices are numbered from 0.
